@@ -24,7 +24,7 @@
 - **Food groups**: 15 categories (braised snacks, café/dessert, hot pot, steak, noodles, Japanese, Korean, vegetarian, dim sum, Italian/pizza, buffet, stir-fry, BBQ/Cantonese, bento, fried) + **其他**; multi-select; wheel auto-includes「其他」when filtering.
 - **Budget**: `price_level 1` filter + optional include unknown price.
 - **Hours**: map shows open/closed/unknown; **wheel excludes closed** (unknown kept).
-- Spec: [docs/v2-規格.md](docs/v2-規格.md)
+- Spec: [docs/v2-規格.md](docs/v2-規格.md) · Summary: [docs/v2-上線與變更總結.md](docs/v2-上線與變更總結.md)
 
 ### Core features (from v1)
 
