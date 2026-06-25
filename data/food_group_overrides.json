@@ -1,0 +1,60 @@
+{
+  "_schema": "restaurant id → { food_groups: string[], avg_spend_ntd?: number }",
+  "_note": "14 家「其他」為餐酒館／飯店／電競／沙龍，刻意維持其他；avg_spend_ntd 供預算篩選 demo",
+  "ChIJqaSyg8PkZzQRfUMyAyJbbTE": {
+    "food_groups": ["其他"]
+  },
+  "ChIJQ9bdIwDlZzQRomVuq5vMZ7w": {
+    "food_groups": ["其他"]
+  },
+  "ChIJHfEtief7ZzQRv_ggTEQCs7Y": {
+    "food_groups": ["其他"]
+  },
+  "ChIJY2QG75DlZzQR5Devr-8Eejw": {
+    "food_groups": ["其他"]
+  },
+  "ChIJlTT1Wt7lZzQRf24HSH4hjhM": {
+    "food_groups": ["其他"]
+  },
+  "ChIJoQUWDMPkZzQRxRmRPzOcgXk": {
+    "food_groups": ["其他"]
+  },
+  "ChIJVVHuu-nkZzQRSpflcquawdc": {
+    "food_groups": ["其他"]
+  },
+  "ChIJtxXoHkzlZzQRLC925sLwnu0": {
+    "food_groups": ["其他"]
+  },
+  "ChIJv7ENv3vlZzQRk4avqhQV46M": {
+    "food_groups": ["其他"]
+  },
+  "ChIJhc50ntvkZzQR2VZnf4ULVLo": {
+    "food_groups": ["其他"]
+  },
+  "ChIJ9320MMPlZzQRkTDQjWFTrp0": {
+    "food_groups": ["其他"]
+  },
+  "ChIJxxs-9m_lZzQRJk0AU8VlTT4": {
+    "food_groups": ["其他"]
+  },
+  "ChIJ0T3AT-DlZzQRnYMMjSpNz3w": {
+    "food_groups": ["其他"]
+  },
+  "ChIJnZA0yerkZzQR0bB5NoAArWU": {
+    "food_groups": ["其他"]
+  },
+  "ChIJO0WrC-nkZzQRMLdXqGavz34": {
+    "food_groups": ["義式披薩類"]
+  },
+  "ChIJn00YUmnlZzQRBN-QKhCOkfA": {
+    "food_groups": ["下午茶咖啡廳類"]
+  },
+  "ChIJNTXvYQnlZzQRog9UrUtTraQ": {
+    "food_groups": ["滷味類", "素食蔬食類"],
+    "avg_spend_ntd": 80
+  },
+  "ChIJlwx1NOjkZzQR4-yZS8lB_Xg": {
+    "food_groups": ["下午茶咖啡廳類"],
+    "avg_spend_ntd": 45
+  }
+}
