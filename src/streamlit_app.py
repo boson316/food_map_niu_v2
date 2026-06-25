@@ -18,7 +18,7 @@ import pydeck as pdk
 import streamlit as st
 import streamlit.components.v1 as components
 
-from foodmap.categories import FOOD_GROUP_OTHER, FOOD_GROUP_SIDEBAR_GROUPS, wheel_food_groups, matches_food_groups
+from foodmap.categories import FOOD_GROUP_OTHER, FOOD_GROUP_SIDEBAR_GROUPS, is_wheel_eligible, wheel_food_groups, matches_food_groups
 from foodmap.providers import MockRestaurantProvider
 from foodmap.integrity import CoreIntegrityError, author_notice, verify_core_modules
 from foodmap.service import FoodMapService, SortMode
@@ -332,9 +332,14 @@ huang = rating × 分級係數 × (0.5 + 0.5×rating/5) × (0.4 + 0.6×log1p(評
 
 
 def _wheel_candidate_df(df: pd.DataFrame, selected_food_groups: list[str]) -> pd.DataFrame:
-    """轉盤：排除休息中；有選分類時 = 所選 ∪ 其他。"""
+    """轉盤：排除休息中；正餐為主（排除下午茶／冰品）；有選分類時 = 所選 ∪ 其他。"""
     open_mask = df["is_open_now"].ne(False)
     candidates = df.loc[open_mask].copy()
+    meal_mask = candidates.apply(
+        lambda row: is_wheel_eligible(row["food_groups"], str(row["name"])),
+        axis=1,
+    )
+    candidates = candidates.loc[meal_mask]
     wheel_groups = wheel_food_groups(selected_food_groups)
     if wheel_groups:
         candidates = candidates[
@@ -352,7 +357,7 @@ def _render_wheel_selector(df: pd.DataFrame, selected_food_groups: list[str]) ->
         return
 
     st.caption(
-        f"候選名單：營業中（含未知）· 綜合分 Top {len(wheel_df)}"
+        f"候選名單：營業中（含未知）· 正餐為主 · 綜合分 Top {len(wheel_df)}"
         + (" · 分類篩選已套用" if selected_food_groups else "")
     )
     with st.expander("查看候選清單", expanded=False):

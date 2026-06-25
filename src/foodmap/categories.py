@@ -241,3 +241,34 @@ FOOD_GROUP_SIDEBAR_GROUPS: tuple[tuple[str, tuple[str, ...]], ...] = (
     ),
     ("輕食飲品", (FOOD_GROUP_CAFE, FOOD_GROUP_VEGETARIAN)),
 )
+
+WHEEL_EXCLUDED_FOOD_GROUPS: frozenset[str] = frozenset(
+    {
+        FOOD_GROUP_CAFE,
+        FOOD_GROUP_OTHER,
+    }
+)
+
+_WHEEL_EXCLUDED_NAME_KEYWORDS: tuple[str, ...] = (
+    "自助冰",
+    "剉冰",
+    "刨冰",
+    "雪花冰",
+    "燒仙草",
+    "仙草冰",
+    "豆花",
+    "冰淇淋",
+)
+
+
+def is_wheel_eligible(food_groups: Sequence[str], name: str = "") -> bool:
+    """轉盤候選：正餐為主，排除下午茶／冰品與非美食分類。"""
+    for keyword in _WHEEL_EXCLUDED_NAME_KEYWORDS:
+        if keyword in name:
+            return False
+    if not food_groups:
+        return False
+    group_set = set(food_groups)
+    if group_set.intersection(WHEEL_EXCLUDED_FOOD_GROUPS):
+        return False
+    return True

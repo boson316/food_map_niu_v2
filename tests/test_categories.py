@@ -80,6 +80,23 @@ def test_wheel_food_groups_unions_other() -> None:
     assert wheel_food_groups(["牛排館類"]) == ["其他", "牛排館類"]
 
 
+@pytest.mark.parametrize(
+    ("name", "groups", "expected"),
+    [
+        ("六扇門", ["火鍋類"], True),
+        ("麥當勞-宜蘭神農餐廳", ["炸物類"], True),
+        ("非凡豆漿", ["便當類"], True),
+        ("哈哈自助冰、燒仙草", ["下午茶咖啡廳類", "百匯自助餐類"], False),
+        ("某咖啡廳", ["下午茶咖啡廳類"], False),
+        ("新買醉餐酒館", ["其他"], False),
+    ],
+)
+def test_is_wheel_eligible_main_meals(name: str, groups: list[str], expected: bool) -> None:
+    from foodmap.categories import is_wheel_eligible
+
+    assert is_wheel_eligible(groups, name) is expected
+
+
 def test_mio_steak_from_cache() -> None:
     cache = Path(__file__).resolve().parents[1] / "data" / "places_cache.json"
     if not cache.is_file():
