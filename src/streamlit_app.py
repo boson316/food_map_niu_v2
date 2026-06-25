@@ -91,7 +91,7 @@ def _geocode_place_name(query: str) -> tuple[float, float] | None:
     )
     req = urllib.request.Request(
         f"https://nominatim.openstreetmap.org/search?{params}",
-        headers={"User-Agent": "niu-foodmap-streamlit/1.0 (school project demo)"},
+        headers={"User-Agent": "food-map-niu-v2-streamlit/1.0 (school project demo)"},
     )
     try:
         with urllib.request.urlopen(req, timeout=10) as resp:

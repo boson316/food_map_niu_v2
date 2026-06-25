@@ -24,19 +24,19 @@ def test_counter_page_url_default() -> None:
 
 
 def test_counter_api_urls_use_counterapi() -> None:
-    assert counter_api_get_url() == "https://api.counterapi.dev/v1/niu-foodmap/visits/"
-    assert counter_api_up_url() == "https://api.counterapi.dev/v1/niu-foodmap/visits/up"
-    assert counter_namespace() == "niu-foodmap"
+    assert counter_api_get_url() == "https://api.counterapi.dev/v1/food-map-niu-v2/visits/"
+    assert counter_api_up_url() == "https://api.counterapi.dev/v1/food-map-niu-v2/visits/up"
+    assert counter_namespace() == "food-map-niu-v2"
     assert counter_key() == "visits"
 
 
 def test_build_visit_counter_html_uses_counterapi_without_image_fallback() -> None:
     html_out = build_visit_counter_html(
-        "https://niu-foodmap.streamlit.app",
+        "https://food-map-niu-v2.streamlit.app",
         author_line="© 2026 Boson Huang",
     )
     assert "© 2026 Boson Huang" in html_out
-    assert "api.counterapi.dev/v1/niu-foodmap/visits/" in html_out
+    assert "api.counterapi.dev/v1/food-map-niu-v2/visits/" in html_out
     assert "niu-visit-count" in html_out
     assert "sessionStorage" in html_out
     assert "seeyoufarm.com" not in html_out

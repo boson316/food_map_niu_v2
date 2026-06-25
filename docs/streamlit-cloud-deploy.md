@@ -104,11 +104,11 @@ git push -u origin main
 
 | Field | Value |
 |-------|--------|
-| Repository | `your-account/niu-foodmap` |
+| Repository | `boson316/food_map_niu_v2` |
 | Branch | `main` |
 | Main file path | `src/streamlit_app.py` |
 
-4. **Deploy** — URL like `https://niu-foodmap.streamlit.app`
+4. **Deploy** — URL: `https://food-map-niu-v2.streamlit.app`
 
 **Secrets:** Not required for normal operation (JSON cache). Add `GOOGLE_MAPS_API_KEY` only if re-fetching Places on the server.
 

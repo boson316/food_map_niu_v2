@@ -3,7 +3,7 @@
 **Languages:** [English](README.md) · [中文](README.zh-TW.md)
 
 > **v2 工作區** — 自 v1（`cursor/114_1_學校專案/python程式期末專案_美食系統`）複製而來。  
-> **v2 repo：** https://github.com/boson316/food_map_niu_v2  
+> **v2 雲端：** https://food-map-niu-v2.streamlit.app · **v2 repo：** https://github.com/boson316/food_map_niu_v2  
 > v1 雲端：https://niu-foodmap.streamlit.app · v1 repo：https://github.com/boson316/niu-foodmap
 
 **作者：** Boson Huang · **授權：** 專有軟體 — 見 [LICENSE](LICENSE)

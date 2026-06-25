@@ -117,7 +117,7 @@ def build() -> Path:
     p2.font.color.rgb = ORANGE
     p2.alignment = PP_ALIGN.CENTER
     p3 = tf.add_paragraph()
-    p3.text = "作者：Boson Huang  |  雲端 Demo：https://niu-foodmap.streamlit.app"
+    p3.text = "作者：Boson Huang  |  雲端 Demo：https://food-map-niu-v2.streamlit.app"
     p3.font.size = Pt(14)
     p3.font.color.rgb = RGBColor(0xAA, 0xBB, 0xCC)
     p3.alignment = PP_ALIGN.CENTER
@@ -201,8 +201,8 @@ def build() -> Path:
             ["資料來源", "Google Places API (New)", "一次性抓取 → JSON 快取"],
             ["測試", "pytest + pytest-cov", "109 tests，CI gate"],
             ["CI/CD", "GitHub Actions", "自動測試 + benchmark gate"],
-            ["部署", "Streamlit Community Cloud", "https://niu-foodmap.streamlit.app"],
-            ["版本控制", "Git + GitHub (boson316/niu-foodmap)", "協作與自動部署"],
+            ["部署", "Streamlit Community Cloud", "https://food-map-niu-v2.streamlit.app"],
+            ["版本控制", "Git + GitHub (boson316/food_map_niu_v2)", "協作與自動部署"],
             ["硬體", "Windows PC / 一般筆電", "本機開發與 demo"],
             ["瀏覽器", "Chrome / Edge / 手機瀏覽器", "雲端 app 存取"],
         ],
@@ -356,8 +356,8 @@ def build() -> Path:
     _add_bullets(
         s,
         [
-            "【雲端 Demo】https://niu-foodmap.streamlit.app",
-            "【GitHub】https://github.com/boson316/niu-foodmap",
+            "【雲端 Demo】https://food-map-niu-v2.streamlit.app",
+            "【GitHub】https://github.com/boson316/food_map_niu_v2",
             "",
             "【本機執行】",
             "  cd 校園美食地圖_v2",

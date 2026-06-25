@@ -136,7 +136,7 @@ git push -u origin main
 | Repository | 你的帳號/`niu-foodmap` |
 | Branch | `main` |
 | Main file path | `src/streamlit_app.py` |
-| App URL（可選） | 例：`niu-foodmap` → `https://niu-foodmap.streamlit.app` |
+| App URL（可選） | `food-map-niu-v2` → `https://food-map-niu-v2.streamlit.app` |
 
 5. **Advanced settings**（通常不用改）  
    - Python 3.10+  
@@ -167,7 +167,7 @@ GOOGLE_MAPS_API_KEY = "你的金鑰"
 
 ## 6. 推廣給宜大學生
 
-1. 複製 Streamlit 網址，例：`https://niu-foodmap.streamlit.app`  
+1. 複製 Streamlit 網址：`https://food-map-niu-v2.streamlit.app`  
 2. 用 https://www.qrcode-monkey.com 或類似工具產 QR  
 3. 貼到系上海報、社團、LINE 群  
 

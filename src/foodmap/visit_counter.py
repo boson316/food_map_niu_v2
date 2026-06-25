@@ -7,9 +7,9 @@ import html
 import json
 import os
 
-_DEFAULT_PAGE_URL = "https://niu-foodmap.streamlit.app"
+_DEFAULT_PAGE_URL = "https://food-map-niu-v2.streamlit.app"
 _COUNTERAPI_BASE = "https://api.counterapi.dev/v1"
-_DEFAULT_NAMESPACE = "niu-foodmap"
+_DEFAULT_NAMESPACE = "food-map-niu-v2"
 _DEFAULT_KEY = "visits"
 _SESSION_STORAGE_KEY = "niu_foodmap_visit_counted"
 _UNAVAILABLE_LABEL = "瀏覽人次統計暫不可用"
