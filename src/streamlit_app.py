@@ -25,7 +25,7 @@ from foodmap.service import FoodMapService, SortMode
 from foodmap.wheel import build_wheel_html
 
 _TIER_LABEL = {"low": "低", "medium": "普通", "high": "高"}
-_WHEEL_TOP_N = 30
+_WHEEL_TOP_N = 50
 
 _MOBILE_CSS = """
 <style>
