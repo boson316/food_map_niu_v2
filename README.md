@@ -20,10 +20,10 @@
 
 ### v2 features
 
-- Default search radius **1 km**, default list **300** places; fetch pool **1 km** max (enhanced cache: **300** places).
+- Default search radius **500 m (0.5 km)**, default list **300** places; fetch pool **1 km** max (enhanced cache: **300** places).
 - **Food groups**: 15 categories (braised snacks, café/dessert, hot pot, steak, noodles, Japanese, Korean, vegetarian, dim sum, Italian/pizza, buffet, stir-fry, BBQ/Cantonese, bento, fried) + **其他**; multi-select; wheel auto-includes「其他」when filtering.
 - **Budget**: `price_level 1` filter + optional include unknown price.
-- **Hours**: map shows open/closed/unknown; **wheel excludes closed** (unknown kept).
+- **Hours**: map shows open/closed/unknown; **wheel excludes closed** (unknown kept); wheel pool **Top 40** (main meals, composite score).
 - Spec: [docs/v2-規格.md](docs/v2-規格.md) · Summary: [docs/v2-上線與變更總結.md](docs/v2-上線與變更總結.md)
 
 ### Core features (from v1)
@@ -50,7 +50,7 @@ PowerShell：
 
 ```powershell
 $env:PYTHONPATH = "src"
-python -m foodmap search --lat 24.7464 --lon 121.7457 --radius 1.0 --sort composite --format table
+python -m foodmap search --lat 24.7464 --lon 121.7457 --sort composite --format table
 python -m foodmap search --lat 24.7464 --lon 121.7457 --food-group 火鍋類 --max-price-level 1 --format json
 ```
 
@@ -62,11 +62,11 @@ python -m foodmap search --lat 24.7464 --lon 121.7457 --food-group 火鍋類 --m
 cd 校園美食地圖_v2
 $env:PYTHONPATH = "src"
 
-# 1) 宜大校門口 1km 內，綜合排序
-python -m foodmap search --lat 24.7464 --lon 121.7457 --radius 1.0 --sort composite
+# 1) 宜大校門口預設 500 m 內，綜合排序（可省略 --radius，預設 0.5）
+python -m foodmap search --lat 24.7464 --lon 121.7457 --sort composite
 
 # 2) 設「最少評論 100」→ 範例中的「只有三則評論的網紅店」會被濾掉
-python -m foodmap search --lat 24.7464 --lon 121.7457 --radius 1.0 --min-reviews 100
+python -m foodmap search --lat 24.7464 --lon 121.7457 --min-reviews 100
 
 # 3) 拉到 5km 才會看到「羅東夜市牛排館」（驗證半徑過濾）
 python -m foodmap search --lat 24.7464 --lon 121.7457 --radius 5.0 --sort distance
@@ -120,7 +120,7 @@ $env:PYTHONPATH = "src"
 $env:GOOGLE_MAPS_API_KEY = "你的金鑰"
 python scripts/fetch_places_to_json.py --lat 24.7464 --lon 121.7457 --radius-m 1000 --grid 6 --out data/places_cache.json
 python scripts/enrich_food_groups.py data/places_cache.json
-python -m foodmap search --lat 24.7464 --lon 121.7457 --radius 1.0 --data data/places_cache.json --sort huang --limit 20
+python -m foodmap search --lat 24.7464 --lon 121.7457 --radius 0.5 --data data/places_cache.json --sort huang --limit 20
 streamlit run src/streamlit_app.py
 ```
 

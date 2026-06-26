@@ -71,7 +71,7 @@ def main(argv: list[str] | None = None) -> int:
     p_search = sub.add_parser("search", help="依校園中心點與半徑篩選，並排序")
     p_search.add_argument("--lat", type=float, required=True, help="校園中心緯度")
     p_search.add_argument("--lon", type=float, required=True, help="校園中心經度")
-    p_search.add_argument("--radius", type=float, default=1.0, help="搜尋半徑（公里）")
+    p_search.add_argument("--radius", type=float, default=0.5, help="搜尋半徑（公里）")
     p_search.add_argument("--min-reviews", type=int, default=0, help="最少評論數門檻")
     p_search.add_argument(
         "--sort",

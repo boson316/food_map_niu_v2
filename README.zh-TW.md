@@ -19,10 +19,10 @@
 
 ### 功能摘要（v2）
 
-- 預設半徑 **1 km**、預設顯示 **300** 家；資料池 **1 km 內盡量抓滿**（加強版快取 **300** 家）。
+- 預設半徑 **500 m（0.5 km）**、預設顯示 **300** 家；資料池 **1 km 內盡量抓滿**（加強版快取 **300** 家）。
 - **美食分類**：十五類（滷味、下午茶咖啡廳、火鍋、牛排館、麵食、日式、韓式、素食蔬食、點心包子、義式披薩、百匯自助、熱炒合菜、燒腊港式、便當、炸物）+ **其他**（側欄多選；轉盤有選時自動併入「其他」）。
 - **預算**：平價篩選（`price_level 1` ≈ $100–300）+ 可含未標價位。
-- **營業狀態**：地圖顯示「營業中／休息中／未知」；**轉盤排除休息中**（營業時間未知仍保留）。
+- **營業狀態**：地圖顯示「營業中／休息中／未知」；**轉盤排除休息中**（營業時間未知仍保留）；候選 **Top 40**（正餐為主、綜合分排序）。
 - 完整規格：[docs/v2-規格.md](docs/v2-規格.md) · 上線總結：[docs/v2-上線與變更總結.md](docs/v2-上線與變更總結.md)
 
 ### 功能摘要（沿用 v1）
@@ -48,7 +48,7 @@ pytest -q --cov=src --cov-fail-under=70
 
 ```powershell
 $env:PYTHONPATH = "src"
-python -m foodmap search --lat 24.7464 --lon 121.7457 --radius 1.0 --sort composite --format table
+python -m foodmap search --lat 24.7464 --lon 121.7457 --sort composite --format table
 python -m foodmap search --lat 24.7464 --lon 121.7457 --food-group 火鍋類 --max-price-level 1 --format json
 ```
 
@@ -58,11 +58,11 @@ python -m foodmap search --lat 24.7464 --lon 121.7457 --food-group 火鍋類 --m
 cd 校園美食地圖_v2
 $env:PYTHONPATH = "src"
 
-# 1) 宜大校門口 1km 內，綜合排序
-python -m foodmap search --lat 24.7464 --lon 121.7457 --radius 1.0 --sort composite
+# 1) 宜大校門口預設 500 m 內，綜合排序（可省略 --radius，預設 0.5）
+python -m foodmap search --lat 24.7464 --lon 121.7457 --sort composite
 
 # 2) 最少評論 100 → 濾掉少評論店
-python -m foodmap search --lat 24.7464 --lon 121.7457 --radius 1.0 --min-reviews 100
+python -m foodmap search --lat 24.7464 --lon 121.7457 --min-reviews 100
 
 # 3) 半徑 5km 才出現遠距範例
 python -m foodmap search --lat 24.7464 --lon 121.7457 --radius 5.0 --sort distance
@@ -95,7 +95,7 @@ $env:PYTHONPATH = "src"
 $env:GOOGLE_MAPS_API_KEY = "你的金鑰"
 python scripts/fetch_places_to_json.py --lat 24.7464 --lon 121.7457 --radius-m 1000 --grid 6 --out data/places_cache.json
 python scripts/enrich_food_groups.py data/places_cache.json
-python -m foodmap search --lat 24.7464 --lon 121.7457 --radius 1.0 --data data/places_cache.json --sort huang --limit 20
+python -m foodmap search --lat 24.7464 --lon 121.7457 --radius 0.5 --data data/places_cache.json --sort huang --limit 20
 streamlit run src/streamlit_app.py
 ```
 
