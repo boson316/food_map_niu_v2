@@ -1,0 +1,15 @@
+{
+  "_note": "個人常去店家（Boson）；place_ids 須與快取 id 一致",
+  "place_ids": [
+    "ChIJ8_LTgunkZzRr-w6QFA_oqeQ",
+    "ChIJK0K7CenkZzTSkSZ5COxxV-Q",
+    "ChIJb05af7LlZzSx0ZNFYwc8fuQ",
+    "ChIJ1Q9EsVPlZzTSmgm6wnKi4uQ"
+  ],
+  "maps_urls": [
+    "https://maps.app.goo.gl/zTKWQsqxmhCYcB2c8",
+    "https://maps.app.goo.gl/AKDev35UQxPsfJX4A",
+    "https://maps.app.goo.gl/m4AuqJkinA5qpzw78",
+    "https://maps.app.goo.gl/ToqMSZhTVwEXgVgK6"
+  ]
+}

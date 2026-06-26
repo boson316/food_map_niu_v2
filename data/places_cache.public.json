@@ -31803,5 +31803,433 @@
       "素食蔬食類"
     ],
     "business_status": "CLOSED_TEMPORARILY"
+  },
+  {
+    "id": "ChIJ8_LTgunkZzRr-w6QFA_oqeQ",
+    "name": "巧食坊宜大店",
+    "lat": 24.7471575,
+    "lon": 121.7486105,
+    "rating": 3.8,
+    "review_count": 184,
+    "category": "chinese_noodle_restaurant",
+    "price_level": 1,
+    "food_groups": [
+      "麵食類"
+    ],
+    "business_status": "OPERATIONAL",
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 1,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 14,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 16,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 19,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 14,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 16,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 19,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 14,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 16,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 19,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 14,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 16,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 19,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 14,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 16,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 19,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 14,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 19,
+            "minute": 30
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "ChIJK0K7CenkZzTSkSZ5COxxV-Q",
+    "name": "甜屋義大利麵",
+    "lat": 24.7466374,
+    "lon": 121.7499517,
+    "rating": 4.1,
+    "review_count": 137,
+    "category": "italian_restaurant",
+    "price_level": 1,
+    "food_groups": [
+      "義式披薩類"
+    ],
+    "business_status": "OPERATIONAL",
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 0,
+            "hour": 20,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 20,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 20,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 20,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 20,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 20,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 20,
+            "minute": 30
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "ChIJb05af7LlZzSx0ZNFYwc8fuQ",
+    "name": "布麥加",
+    "lat": 24.7466987,
+    "lon": 121.7497404,
+    "rating": 4.9,
+    "review_count": 270,
+    "category": "meal_takeaway",
+    "price_level": 1,
+    "food_groups": [
+      "便當類"
+    ],
+    "business_status": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ1Q9EsVPlZzTSmgm6wnKi4uQ",
+    "name": "鴨米港式燒臘便當",
+    "lat": 24.7466276,
+    "lon": 121.7510713,
+    "rating": 4.6,
+    "review_count": 88,
+    "category": "chinese_restaurant",
+    "price_level": 1,
+    "food_groups": [
+      "燒腊港式類"
+    ],
+    "business_status": "OPERATIONAL",
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "hour": 10,
+            "minute": 30
+          },
+          "close": {
+            "day": 0,
+            "hour": 13,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 0,
+            "hour": 16,
+            "minute": 30
+          },
+          "close": {
+            "day": 0,
+            "hour": 19,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 10,
+            "minute": 30
+          },
+          "close": {
+            "day": 1,
+            "hour": 13,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 16,
+            "minute": 30
+          },
+          "close": {
+            "day": 1,
+            "hour": 19,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 10,
+            "minute": 30
+          },
+          "close": {
+            "day": 2,
+            "hour": 13,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 16,
+            "minute": 30
+          },
+          "close": {
+            "day": 2,
+            "hour": 19,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 10,
+            "minute": 30
+          },
+          "close": {
+            "day": 3,
+            "hour": 13,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 16,
+            "minute": 30
+          },
+          "close": {
+            "day": 3,
+            "hour": 19,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 10,
+            "minute": 30
+          },
+          "close": {
+            "day": 4,
+            "hour": 13,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 16,
+            "minute": 30
+          },
+          "close": {
+            "day": 4,
+            "hour": 19,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 10,
+            "minute": 30
+          },
+          "close": {
+            "day": 5,
+            "hour": 13,
+            "minute": 30
+          }
+        }
+      ]
+    }
   }
 ]
