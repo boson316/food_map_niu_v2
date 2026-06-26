@@ -1,6 +1,6 @@
 {
   "_schema": "restaurant id → { food_groups: string[], avg_spend_ntd?: number }",
-  "_note": "14 家「其他」為餐酒館／飯店／電競／沙龍，刻意維持其他；avg_spend_ntd 供預算篩選 demo",
+  "_note": "13 家「其他」為餐酒館／飯店／電競／沙龍，刻意維持其他；avg_spend_ntd 供預算篩選 demo",
   "ChIJqaSyg8PkZzQRfUMyAyJbbTE": {
     "food_groups": ["其他"]
   },
@@ -11,9 +11,6 @@
     "food_groups": ["其他"]
   },
   "ChIJY2QG75DlZzQR5Devr-8Eejw": {
-    "food_groups": ["其他"]
-  },
-  "ChIJlTT1Wt7lZzQRf24HSH4hjhM": {
     "food_groups": ["其他"]
   },
   "ChIJoQUWDMPkZzQRxRmRPzOcgXk": {

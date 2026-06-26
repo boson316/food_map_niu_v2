@@ -75,7 +75,8 @@ def _default_data_path() -> str:
     return ""
 
 
-def _load_favorite_ids() -> set[str]:
+def _load_wheel_pinned_ids() -> set[str]:
+    """轉盤優先納入的店家（data/user_favorites.json）。"""
     path = _ROOT.parent / "data" / "user_favorites.json"
     if not path.is_file():
         return set()
@@ -234,75 +235,14 @@ box-shadow:0 1px 3px rgba(60,64,67,.15);margin-bottom:0.75rem;">
     st.link_button("在 Google Maps 查看評價與導航", row["maps_url"], type="primary")
 
 
-def _favorite_rows(
-    service: FoodMapService,
-    favorite_ids: set[str],
-    *,
-    center_lat: float,
-    center_lon: float,
-    radius_km: float,
-) -> pd.DataFrame:
-    if not favorite_ids:
-        return pd.DataFrame()
-    rows = service.rank_nearby(
-        center_lat=center_lat,
-        center_lon=center_lon,
-        radius_km=radius_km,
-        limit=300,
-    )
-    payload = [row for row in FoodMapService.to_public_dict(rows) if row["id"] in favorite_ids]
-    if not payload:
-        return pd.DataFrame()
-    return pd.DataFrame(payload)
-
-
-def _render_favorites_section(
-    fav_df: pd.DataFrame,
-    *,
-    sort_by: str,
-) -> None:
-    if fav_df.empty:
-        return
-    st.subheader("我的常去")
-    st.caption("你常去的店家（不受側欄分類篩選影響；地圖上以黃色標記）")
-    ordered = _ordered_rows(fav_df, sort_by=sort_by).reset_index(drop=True)
-    st.dataframe(
-        _build_display_table(ordered),
-        column_order=list(_DISPLAY_COLUMNS),
-        column_config={
-            "店名": st.column_config.TextColumn("店名", width="medium"),
-            "Google Map": st.column_config.LinkColumn(
-                "Google Map",
-                display_text="📖 開啟",
-                width="small",
-            ),
-            "距離": st.column_config.TextColumn("距離", width="small"),
-            "營業狀態": st.column_config.TextColumn("營業狀態", width="small"),
-            "Google 評分": st.column_config.NumberColumn("Google 評分", format="%.1f", width="small"),
-            "評論數": st.column_config.NumberColumn("評論數", format="%d", width="small"),
-            "平均消費": st.column_config.TextColumn("平均消費", width="small"),
-            "美食分類": st.column_config.TextColumn("美食分類", width="medium"),
-            "貝氏星等": st.column_config.NumberColumn("貝氏星等", format="%.2f", width="small"),
-            "黃氏星等": st.column_config.NumberColumn("黃氏星等", format="%.2f", width="small"),
-            "綜合分數": st.column_config.NumberColumn("綜合分數", format="%.4f", width="small"),
-            "星等分級": st.column_config.TextColumn("星等分級", width="small"),
-            "分類": st.column_config.TextColumn("分類", width="small"),
-        },
-        hide_index=True,
-        width="stretch",
-    )
-
-
 def _render_map(
     *,
     restaurants: pd.DataFrame,
     center_lat: float,
     center_lon: float,
     focus_row: pd.Series | None,
-    favorite_ids: set[str] | None = None,
 ) -> None:
     map_df = restaurants.copy()
-    fav_ids = favorite_ids or set()
     if focus_row is not None:
         map_df["selected"] = map_df["id"] == focus_row["id"]
         map_center_lat = float(focus_row["lat"])
@@ -313,8 +253,6 @@ def _render_map(
         map_center_lat = center_lat
         map_center_lon = center_lon
         zoom = 15
-
-    map_df["is_favorite"] = map_df["id"].isin(fav_ids)
 
     map_df["tooltip_html"] = map_df.apply(
         lambda r: (
@@ -327,22 +265,12 @@ def _render_map(
 
     base_layer = pdk.Layer(
         "ScatterplotLayer",
-        data=map_df[~map_df["selected"] & ~map_df["is_favorite"]],
+        data=map_df[~map_df["selected"]],
         get_position=["lon", "lat"],
         get_fill_color=_GOOGLE_PIN,
         get_radius=1,
         radius_min_pixels=6,
         radius_max_pixels=6,
-        pickable=True,
-    )
-    favorite_layer = pdk.Layer(
-        "ScatterplotLayer",
-        data=map_df[map_df["is_favorite"] & ~map_df["selected"]],
-        get_position=["lon", "lat"],
-        get_fill_color=_HIGHLIGHT_PIN,
-        get_radius=1,
-        radius_min_pixels=8,
-        radius_max_pixels=8,
         pickable=True,
     )
     focus_layer = pdk.Layer(
@@ -366,8 +294,6 @@ def _render_map(
         pickable=True,
     )
     layers = [base_layer, center_layer]
-    if not map_df[map_df["is_favorite"] & ~map_df["selected"]].empty:
-        layers.insert(1, favorite_layer)
     if focus_row is not None and not map_df[map_df["selected"]].empty:
         layers.insert(1, focus_layer)
     elif focus_row is not None:
@@ -420,8 +346,13 @@ huang = rating × 分級係數 × (0.5 + 0.5×rating/5) × (0.4 + 0.6×log1p(評
         )
 
 
-def _wheel_candidate_df(df: pd.DataFrame, selected_food_groups: list[str]) -> pd.DataFrame:
-    """轉盤：排除休息中；正餐為主（排除下午茶／冰品）；有選分類時 = 所選 ∪ 其他。"""
+def _wheel_candidate_df(
+    df: pd.DataFrame,
+    selected_food_groups: list[str],
+    *,
+    pinned_ids: set[str] | None = None,
+) -> pd.DataFrame:
+    """轉盤：排除休息中；正餐為主；pinned_ids 優先保留在候選前列。"""
     open_mask = df["is_open_now"].ne(False)
     candidates = df.loc[open_mask].copy()
     meal_mask = candidates.apply(
@@ -436,11 +367,26 @@ def _wheel_candidate_df(df: pd.DataFrame, selected_food_groups: list[str]) -> pd
                 lambda groups: matches_food_groups(groups, wheel_groups)
             )
         ]
-    return candidates.sort_values("composite_score", ascending=False, kind="mergesort")
+    ranked = candidates.sort_values("composite_score", ascending=False, kind="mergesort")
+    pin_ids = pinned_ids or set()
+    if not pin_ids:
+        return ranked
+    pinned = ranked[ranked["id"].isin(pin_ids)]
+    if pinned.empty:
+        return ranked
+    rest = ranked[~ranked["id"].isin(pin_ids)]
+    return pd.concat([pinned, rest], ignore_index=True)
 
 
-def _render_wheel_selector(df: pd.DataFrame, selected_food_groups: list[str]) -> None:
-    wheel_df = _wheel_candidate_df(df, selected_food_groups).head(_WHEEL_TOP_N).reset_index(drop=True)
+def _render_wheel_selector(
+    df: pd.DataFrame,
+    selected_food_groups: list[str],
+    *,
+    pinned_ids: set[str] | None = None,
+) -> None:
+    wheel_df = _wheel_candidate_df(
+        df, selected_food_groups, pinned_ids=pinned_ids
+    ).head(_WHEEL_TOP_N).reset_index(drop=True)
     if wheel_df.empty:
         st.warning("沒有符合條件的餐廳可放入轉盤。")
         return
@@ -578,7 +524,7 @@ def run() -> None:
 
     service = _build_service(data_path.strip())
     sort_mode: SortMode = sort_by  # type: ignore[assignment]
-    favorite_ids = _load_favorite_ids()
+    wheel_pinned_ids = _load_wheel_pinned_ids()
 
     rows = service.rank_nearby(
         center_lat=float(lat),
@@ -601,44 +547,30 @@ def run() -> None:
         return
 
     df = pd.DataFrame(payload)
-    fav_df = _favorite_rows(
-        service,
-        favorite_ids,
-        center_lat=float(lat),
-        center_lon=float(lon),
-        radius_km=float(radius),
-    )
     st.caption(f"符合條件 {len(df)} 家（半徑 {radius} km）")
     tab_map, tab_wheel = st.tabs(["🗺️ 美食地圖", "🎡 轉盤選擇"])
 
     with tab_map:
-        _render_favorites_section(fav_df, sort_by=sort_by)
         st.subheader("清單")
         focus_row = _render_list_table(df, sort_by=sort_by)
 
         st.subheader("地圖")
-        st.caption(
-            "淺色街道圖 · 🔵 宜大校本部 · 🔴 餐廳 · 🟡 常去／你選的店"
-        )
+        st.caption("淺色街道圖 · 🔵 宜大校本部 · 🔴 餐廳（點狀標記）· 🟡 你選的店")
         if focus_row is not None:
             _render_focus_card(focus_row)
-        map_cols = ["id", "name", "lat", "lon", "rating", "review_count", "distance_display"]
-        map_df = df[map_cols].copy()
-        if not fav_df.empty:
-            extra = fav_df[~fav_df["id"].isin(map_df["id"])][map_cols]
-            if not extra.empty:
-                map_df = pd.concat([map_df, extra], ignore_index=True)
+        map_df = df[
+            ["id", "name", "lat", "lon", "rating", "review_count", "distance_display"]
+        ].copy()
         _render_map(
             restaurants=map_df,
             center_lat=float(lat),
             center_lon=float(lon),
             focus_row=focus_row,
-            favorite_ids=favorite_ids,
         )
         _render_score_guide()
 
     with tab_wheel:
-        _render_wheel_selector(df, selected_food_groups)
+        _render_wheel_selector(df, selected_food_groups, pinned_ids=wheel_pinned_ids)
 
     st.divider()
     _render_footer()
