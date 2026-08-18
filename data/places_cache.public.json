@@ -5,7 +5,7 @@
     "lat": 24.752220299999998,
     "lon": 121.73989519999999,
     "rating": 4.2,
-    "review_count": 9097,
+    "review_count": 9137,
     "category": "soup_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -83,7 +83,7 @@
     "lat": 24.7516592,
     "lon": 121.73858879999999,
     "rating": 4.5,
-    "review_count": 1008,
+    "review_count": 1021,
     "category": "dessert_shop",
     "price_level": null,
     "food_groups": [
@@ -185,7 +185,7 @@
     "lat": 24.751227399999998,
     "lon": 121.74007789999999,
     "rating": 4.1,
-    "review_count": 2781,
+    "review_count": 2794,
     "category": "taiwanese_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -368,10 +368,10 @@
   {
     "id": "ChIJHfEtief7ZzQRv_ggTEQCs7Y",
     "name": "新買醉餐酒館＆COZZZY BAR｜宜蘭旗艦店",
-    "lat": 24.7496951,
-    "lon": 121.74529729999998,
+    "lat": 24.7497339,
+    "lon": 121.74536719999998,
     "rating": 4.8,
-    "review_count": 13133,
+    "review_count": 13132,
     "category": "bistro",
     "price_level": 2,
     "food_groups": [
@@ -399,7 +399,7 @@
           },
           "close": {
             "day": 2,
-            "hour": 14,
+            "hour": 2,
             "minute": 0
           }
         },
@@ -473,7 +473,7 @@
     "lat": 24.752184999999997,
     "lon": 121.7398384,
     "rating": 4.3,
-    "review_count": 2731,
+    "review_count": 2751,
     "category": "noodle_shop",
     "price_level": 1,
     "food_groups": [
@@ -489,6 +489,18 @@
           },
           "close": {
             "day": 0,
+            "hour": 21,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 10,
+            "minute": 30
+          },
+          "close": {
+            "day": 1,
             "hour": 21,
             "minute": 30
           }
@@ -539,7 +551,7 @@
     "lat": 24.7507611,
     "lon": 121.74110220000001,
     "rating": 4.1,
-    "review_count": 1755,
+    "review_count": 1776,
     "category": "taiwanese_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -725,7 +737,7 @@
     "lat": 24.752232799999998,
     "lon": 121.73996460000001,
     "rating": 4.3,
-    "review_count": 780,
+    "review_count": 792,
     "category": "restaurant",
     "price_level": 1,
     "food_groups": [
@@ -803,7 +815,7 @@
     "lat": 24.7498547,
     "lon": 121.7453922,
     "rating": 4.9,
-    "review_count": 7084,
+    "review_count": 7075,
     "category": "bistro",
     "price_level": 2,
     "food_groups": [
@@ -820,7 +832,7 @@
           "close": {
             "day": 1,
             "hour": 2,
-            "minute": 30
+            "minute": 0
           }
         },
         {
@@ -832,7 +844,7 @@
           "close": {
             "day": 2,
             "hour": 2,
-            "minute": 30
+            "minute": 0
           }
         },
         {
@@ -844,7 +856,7 @@
           "close": {
             "day": 3,
             "hour": 2,
-            "minute": 30
+            "minute": 0
           }
         },
         {
@@ -856,7 +868,7 @@
           "close": {
             "day": 4,
             "hour": 2,
-            "minute": 30
+            "minute": 0
           }
         },
         {
@@ -868,7 +880,7 @@
           "close": {
             "day": 5,
             "hour": 2,
-            "minute": 30
+            "minute": 0
           }
         },
         {
@@ -880,7 +892,7 @@
           "close": {
             "day": 6,
             "hour": 2,
-            "minute": 30
+            "minute": 0
           }
         },
         {
@@ -892,7 +904,7 @@
           "close": {
             "day": 0,
             "hour": 2,
-            "minute": 30
+            "minute": 0
           }
         }
       ]
@@ -905,7 +917,7 @@
     "lat": 24.748752699999997,
     "lon": 121.74103020000001,
     "rating": 4.9,
-    "review_count": 2668,
+    "review_count": 2695,
     "category": "hot_pot_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -1067,7 +1079,7 @@
     "lat": 24.748466999999998,
     "lon": 121.7408575,
     "rating": 4.5,
-    "review_count": 1683,
+    "review_count": 1735,
     "category": "steak_house",
     "price_level": 2,
     "food_groups": [
@@ -1253,7 +1265,7 @@
     "lat": 24.749862,
     "lon": 121.74324469999999,
     "rating": 4.2,
-    "review_count": 651,
+    "review_count": 658,
     "category": "chinese_noodle_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -1391,9 +1403,9 @@
     "lat": 24.750217499999998,
     "lon": 121.74396870000001,
     "rating": 4.7,
-    "review_count": 504,
+    "review_count": 536,
     "category": "coffee_shop",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -1481,7 +1493,7 @@
     "lat": 24.749927,
     "lon": 121.73990870000002,
     "rating": 4.4,
-    "review_count": 825,
+    "review_count": 827,
     "category": "hot_pot_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -1643,7 +1655,7 @@
     "lat": 24.748474299999998,
     "lon": 121.74331040000001,
     "rating": 4.8,
-    "review_count": 527,
+    "review_count": 556,
     "category": "restaurant",
     "price_level": 2,
     "food_groups": [
@@ -1829,7 +1841,7 @@
     "lat": 24.748451,
     "lon": 121.7431546,
     "rating": 4.8,
-    "review_count": 768,
+    "review_count": 782,
     "category": "brunch_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -1919,7 +1931,7 @@
     "lat": 24.750515,
     "lon": 121.74500370000001,
     "rating": 4.0,
-    "review_count": 525,
+    "review_count": 526,
     "category": "taiwanese_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -2105,7 +2117,7 @@
     "lat": 24.749699099999997,
     "lon": 121.74283399999999,
     "rating": 4.7,
-    "review_count": 379,
+    "review_count": 388,
     "category": "bakery",
     "price_level": 1,
     "food_groups": [
@@ -2207,7 +2219,7 @@
     "lat": 24.7504218,
     "lon": 121.7449294,
     "rating": 4.5,
-    "review_count": 891,
+    "review_count": 896,
     "category": "vegetarian_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -2369,9 +2381,9 @@
     "lat": 24.751949699999997,
     "lon": 121.73860150000002,
     "rating": 4.7,
-    "review_count": 345,
+    "review_count": 348,
     "category": "deli",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "點心包子類"
     ],
@@ -2385,6 +2397,54 @@
           },
           "close": {
             "day": 0,
+            "hour": 12,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 6,
+            "minute": 30
+          },
+          "close": {
+            "day": 1,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 6,
+            "minute": 30
+          },
+          "close": {
+            "day": 2,
+            "hour": 12,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 6,
+            "minute": 30
+          },
+          "close": {
+            "day": 4,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 6,
+            "minute": 30
+          },
+          "close": {
+            "day": 5,
             "hour": 14,
             "minute": 0
           }
@@ -2397,7 +2457,7 @@
           },
           "close": {
             "day": 6,
-            "hour": 13,
+            "hour": 14,
             "minute": 0
           }
         }
@@ -2410,10 +2470,10 @@
     "name": "老先覺麻辣鍋(蔬食吃到飽)-宜蘭宜中店",
     "lat": 24.746885,
     "lon": 121.74282629999998,
-    "rating": 4.3,
-    "review_count": 268,
+    "rating": 4.2,
+    "review_count": 274,
     "category": "hot_pot_restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "火鍋類",
       "素食蔬食類"
@@ -2514,7 +2574,7 @@
     "lat": 24.7500707,
     "lon": 121.74558490000001,
     "rating": 3.7,
-    "review_count": 9328,
+    "review_count": 9516,
     "category": "buffet_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -2744,13 +2804,13 @@
   },
   {
     "id": "ChIJM77GdmnlZzQRrAhVbKtdz_4",
-    "name": "六扇門",
+    "name": "6 owl door",
     "lat": 24.7511117,
     "lon": 121.7461173,
     "rating": 4.1,
-    "review_count": 2181,
+    "review_count": 2193,
     "category": "hot_pot_restaurant",
-    "price_level": 1,
+    "price_level": 2,
     "food_groups": [
       "火鍋類"
     ],
@@ -2850,7 +2910,7 @@
     "lat": 24.750425999999997,
     "lon": 121.74591699999999,
     "rating": 4.5,
-    "review_count": 1170,
+    "review_count": 1181,
     "category": "ukrainian_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -2952,7 +3012,7 @@
     "lat": 24.7503103,
     "lon": 121.744169,
     "rating": 4.8,
-    "review_count": 3736,
+    "review_count": 3763,
     "category": "italian_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -2987,11 +3047,23 @@
         {
           "open": {
             "day": 2,
-            "hour": 11,
+            "hour": 0,
             "minute": 0
           },
           "close": {
             "day": 2,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
             "hour": 20,
             "minute": 0
           }
@@ -3042,7 +3114,7 @@
     "lat": 24.7494126,
     "lon": 121.74273040000001,
     "rating": 4.8,
-    "review_count": 741,
+    "review_count": 755,
     "category": "restaurant",
     "price_level": 2,
     "food_groups": [
@@ -3180,7 +3252,7 @@
     "lat": 24.7487928,
     "lon": 121.7481182,
     "rating": 4.3,
-    "review_count": 3024,
+    "review_count": 3073,
     "category": "chinese_noodle_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -3283,9 +3355,9 @@
     "lat": 24.749139099999997,
     "lon": 121.7476861,
     "rating": 4.7,
-    "review_count": 297,
+    "review_count": 304,
     "category": "restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類"
     ],
@@ -3445,7 +3517,7 @@
     "lat": 24.7503532,
     "lon": 121.747848,
     "rating": 4.9,
-    "review_count": 397,
+    "review_count": 410,
     "category": "noodle_shop",
     "price_level": 2,
     "food_groups": [
@@ -3630,8 +3702,8 @@
     "name": "肉多多火鍋-宜蘭復興店",
     "lat": 24.7491292,
     "lon": 121.74756930000001,
-    "rating": 4.6,
-    "review_count": 1214,
+    "rating": 4.5,
+    "review_count": 1240,
     "category": "hot_pot_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -3733,9 +3805,9 @@
     "lat": 24.7520836,
     "lon": 121.74807469999999,
     "rating": 4.8,
-    "review_count": 206,
+    "review_count": 227,
     "category": "taiwanese_restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "便當類"
     ],
@@ -3847,7 +3919,7 @@
     "lat": 24.7480607,
     "lon": 121.74775269999999,
     "rating": 3.7,
-    "review_count": 748,
+    "review_count": 761,
     "category": "restaurant",
     "price_level": 1,
     "food_groups": [
@@ -3871,12 +3943,12 @@
           "open": {
             "day": 1,
             "hour": 16,
-            "minute": 10
+            "minute": 0
           },
           "close": {
             "day": 1,
             "hour": 19,
-            "minute": 30
+            "minute": 10
           }
         },
         {
@@ -3895,12 +3967,12 @@
           "open": {
             "day": 2,
             "hour": 16,
-            "minute": 10
+            "minute": 0
           },
           "close": {
             "day": 2,
             "hour": 19,
-            "minute": 30
+            "minute": 10
           }
         },
         {
@@ -3919,12 +3991,12 @@
           "open": {
             "day": 3,
             "hour": 16,
-            "minute": 10
+            "minute": 0
           },
           "close": {
             "day": 3,
             "hour": 19,
-            "minute": 30
+            "minute": 10
           }
         },
         {
@@ -3943,12 +4015,12 @@
           "open": {
             "day": 4,
             "hour": 16,
-            "minute": 10
+            "minute": 0
           },
           "close": {
             "day": 4,
             "hour": 19,
-            "minute": 30
+            "minute": 10
           }
         },
         {
@@ -3967,12 +4039,12 @@
           "open": {
             "day": 5,
             "hour": 16,
-            "minute": 10
+            "minute": 0
           },
           "close": {
             "day": 5,
             "hour": 19,
-            "minute": 30
+            "minute": 10
           }
         },
         {
@@ -3985,18 +4057,6 @@
             "day": 6,
             "hour": 14,
             "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 16,
-            "minute": 10
-          },
-          "close": {
-            "day": 6,
-            "hour": 19,
-            "minute": 30
           }
         }
       ]
@@ -4009,7 +4069,7 @@
     "lat": 24.751401899999998,
     "lon": 121.74894030000002,
     "rating": 4.0,
-    "review_count": 2078,
+    "review_count": 2101,
     "category": "chinese_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -4195,7 +4255,7 @@
     "lat": 24.7521269,
     "lon": 121.7481892,
     "rating": 4.7,
-    "review_count": 817,
+    "review_count": 853,
     "category": "restaurant",
     "price_level": 2,
     "food_groups": [
@@ -4297,7 +4357,7 @@
     "lat": 24.748752399999997,
     "lon": 121.7492571,
     "rating": 4.7,
-    "review_count": 1820,
+    "review_count": 1821,
     "category": "restaurant",
     "price_level": 1,
     "food_groups": [
@@ -4308,84 +4368,84 @@
         {
           "open": {
             "day": 0,
-            "hour": 18,
+            "hour": 20,
             "minute": 0
           },
           "close": {
             "day": 1,
-            "hour": 3,
+            "hour": 4,
             "minute": 0
           }
         },
         {
           "open": {
             "day": 1,
-            "hour": 18,
+            "hour": 20,
             "minute": 0
           },
           "close": {
             "day": 2,
-            "hour": 3,
+            "hour": 4,
             "minute": 0
           }
         },
         {
           "open": {
             "day": 2,
-            "hour": 18,
+            "hour": 20,
             "minute": 0
           },
           "close": {
             "day": 3,
-            "hour": 3,
+            "hour": 4,
             "minute": 0
           }
         },
         {
           "open": {
             "day": 3,
-            "hour": 18,
+            "hour": 20,
             "minute": 0
           },
           "close": {
             "day": 4,
-            "hour": 3,
+            "hour": 4,
             "minute": 0
           }
         },
         {
           "open": {
             "day": 4,
-            "hour": 18,
+            "hour": 20,
             "minute": 0
           },
           "close": {
             "day": 5,
-            "hour": 3,
+            "hour": 4,
             "minute": 0
           }
         },
         {
           "open": {
             "day": 5,
-            "hour": 18,
+            "hour": 20,
             "minute": 0
           },
           "close": {
             "day": 6,
-            "hour": 3,
+            "hour": 4,
             "minute": 0
           }
         },
         {
           "open": {
             "day": 6,
-            "hour": 18,
+            "hour": 20,
             "minute": 0
           },
           "close": {
             "day": 0,
-            "hour": 3,
+            "hour": 4,
             "minute": 0
           }
         }
@@ -4399,11 +4459,11 @@
     "lat": 24.750277999999998,
     "lon": 121.7495126,
     "rating": 4.9,
-    "review_count": 2504,
-    "category": "salad_shop",
+    "review_count": 2605,
+    "category": "restaurant",
     "price_level": 2,
     "food_groups": [
-      "素食蔬食類"
+      "其他"
     ],
     "regular_opening_hours": {
       "periods": [
@@ -4477,9 +4537,9 @@
     "lat": 24.750600499999997,
     "lon": 121.75015939999999,
     "rating": 4.4,
-    "review_count": 674,
+    "review_count": 677,
     "category": "chinese_restaurant",
-    "price_level": 1,
+    "price_level": 2,
     "food_groups": [
       "便當類"
     ],
@@ -4639,7 +4699,7 @@
     "lat": 24.7531389,
     "lon": 121.7470312,
     "rating": 4.7,
-    "review_count": 956,
+    "review_count": 964,
     "category": "cafe",
     "price_level": 2,
     "food_groups": [
@@ -4741,7 +4801,7 @@
     "lat": 24.7483771,
     "lon": 121.7496072,
     "rating": 4.6,
-    "review_count": 2102,
+    "review_count": 2246,
     "category": "noodle_shop",
     "price_level": 1,
     "food_groups": [
@@ -4831,7 +4891,7 @@
     "lat": 24.750866499999997,
     "lon": 121.7506887,
     "rating": 4.4,
-    "review_count": 9595,
+    "review_count": 9709,
     "category": "bakery",
     "price_level": 2,
     "food_groups": [
@@ -4933,9 +4993,9 @@
     "lat": 24.746904699999998,
     "lon": 121.74971920000002,
     "rating": 4.4,
-    "review_count": 1248,
+    "review_count": 1285,
     "category": "noodle_shop",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "炸物類",
       "麵食類"
@@ -5012,7 +5072,7 @@
     "lat": 24.7487134,
     "lon": 121.75128830000001,
     "rating": 4.5,
-    "review_count": 1501,
+    "review_count": 1505,
     "category": "bakery",
     "price_level": 1,
     "food_groups": [
@@ -5027,7 +5087,7 @@
     "lat": 24.752459899999998,
     "lon": 121.74979729999998,
     "rating": 4.3,
-    "review_count": 534,
+    "review_count": 552,
     "category": "restaurant",
     "price_level": 1,
     "food_groups": [
@@ -5129,7 +5189,7 @@
     "lat": 24.7502949,
     "lon": 121.75064270000001,
     "rating": 4.0,
-    "review_count": 2459,
+    "review_count": 2480,
     "category": "chinese_noodle_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -5208,7 +5268,7 @@
     "lat": 24.7492526,
     "lon": 121.7507082,
     "rating": 4.3,
-    "review_count": 340,
+    "review_count": 352,
     "category": "dessert_shop",
     "price_level": null,
     "food_groups": [
@@ -5286,7 +5346,7 @@
     "lat": 24.7479686,
     "lon": 121.75022929999999,
     "rating": 4.8,
-    "review_count": 611,
+    "review_count": 618,
     "category": "restaurant",
     "price_level": 2,
     "food_groups": [
@@ -5469,10 +5529,10 @@
   {
     "id": "ChIJqaSyg8PkZzQRfUMyAyJbbTE",
     "name": "Silks Place Yilan",
-    "lat": 24.753690700000003,
-    "lon": 121.750255,
+    "lat": 24.7537216,
+    "lon": 121.75017009999999,
     "rating": 4.5,
-    "review_count": 14888,
+    "review_count": 15035,
     "category": "hotel",
     "price_level": null,
     "food_groups": [
@@ -5486,9 +5546,9 @@
     "lat": 24.753690700000003,
     "lon": 121.750255,
     "rating": 4.0,
-    "review_count": 7140,
+    "review_count": 7188,
     "category": "chinese_restaurant",
-    "price_level": 3,
+    "price_level": 4,
     "food_groups": [
       "便當類"
     ],
@@ -5672,9 +5732,9 @@
     "lat": 24.7524475,
     "lon": 121.75137249999997,
     "rating": 4.6,
-    "review_count": 503,
+    "review_count": 507,
     "category": "",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -5774,7 +5834,7 @@
     "lat": 24.7500762,
     "lon": 121.7529404,
     "rating": 4.6,
-    "review_count": 931,
+    "review_count": 942,
     "category": "restaurant",
     "price_level": 2,
     "food_groups": [
@@ -5936,7 +5996,7 @@
     "lat": 24.750159999999997,
     "lon": 121.753202,
     "rating": 4.6,
-    "review_count": 544,
+    "review_count": 552,
     "category": "noodle_shop",
     "price_level": 2,
     "food_groups": [
@@ -6098,7 +6158,7 @@
     "lat": 24.7458185,
     "lon": 121.7408897,
     "rating": 4.4,
-    "review_count": 2198,
+    "review_count": 2214,
     "category": "restaurant",
     "price_level": 2,
     "food_groups": [
@@ -6260,9 +6320,9 @@
     "lat": 24.745593,
     "lon": 121.74280599999999,
     "rating": 4.9,
-    "review_count": 489,
+    "review_count": 510,
     "category": "restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "其他"
     ],
@@ -6422,9 +6482,9 @@
     "lat": 24.745924,
     "lon": 121.74162199999999,
     "rating": 4.9,
-    "review_count": 396,
+    "review_count": 401,
     "category": "japanese_restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "日式料理類"
     ],
@@ -6584,7 +6644,7 @@
     "lat": 24.745405899999998,
     "lon": 121.74270440000001,
     "rating": 4.5,
-    "review_count": 630,
+    "review_count": 632,
     "category": "breakfast_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -6600,8 +6660,8 @@
           },
           "close": {
             "day": 1,
-            "hour": 13,
-            "minute": 0
+            "hour": 12,
+            "minute": 30
           }
         },
         {
@@ -6612,8 +6672,8 @@
           },
           "close": {
             "day": 2,
-            "hour": 13,
-            "minute": 0
+            "hour": 12,
+            "minute": 30
           }
         },
         {
@@ -6624,8 +6684,8 @@
           },
           "close": {
             "day": 3,
-            "hour": 13,
-            "minute": 0
+            "hour": 12,
+            "minute": 30
           }
         },
         {
@@ -6636,8 +6696,8 @@
           },
           "close": {
             "day": 4,
-            "hour": 13,
-            "minute": 0
+            "hour": 12,
+            "minute": 30
           }
         },
         {
@@ -6648,8 +6708,8 @@
           },
           "close": {
             "day": 5,
-            "hour": 13,
-            "minute": 0
+            "hour": 12,
+            "minute": 30
           }
         },
         {
@@ -6660,8 +6720,8 @@
           },
           "close": {
             "day": 6,
-            "hour": 13,
-            "minute": 0
+            "hour": 12,
+            "minute": 30
           }
         }
       ]
@@ -6674,9 +6734,9 @@
     "lat": 24.7496491,
     "lon": 121.7413043,
     "rating": 4.9,
-    "review_count": 264,
+    "review_count": 270,
     "category": "breakfast_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類"
     ],
@@ -6759,12 +6819,198 @@
     "business_status": "OPERATIONAL"
   },
   {
+    "id": "ChIJTx64uMvlZzQRPr-PNGmwogA",
+    "name": "初原麵場(宜蘭宜中店)",
+    "lat": 24.750432999999997,
+    "lon": 121.74387999999999,
+    "rating": 4.5,
+    "review_count": 341,
+    "category": "ramen_restaurant",
+    "price_level": 2,
+    "food_groups": [
+      "麵食類"
+    ],
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 0,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 0,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 0,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 20,
+            "minute": 0
+          }
+        }
+      ]
+    },
+    "business_status": "OPERATIONAL"
+  },
+  {
     "id": "ChIJc8uKVJ3lZzQRHq0BEyfXcH0",
     "name": "麥當勞-宜蘭神農餐廳",
     "lat": 24.7457671,
     "lon": 121.74863349999998,
     "rating": 4.0,
-    "review_count": 524,
+    "review_count": 550,
     "category": "fast_food_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -6866,9 +7112,9 @@
     "lat": 24.7457603,
     "lon": 121.7486341,
     "rating": 4.6,
-    "review_count": 130,
+    "review_count": 141,
     "category": "chinese_restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "便當類"
     ],
@@ -7028,9 +7274,9 @@
     "lat": 24.747499599999998,
     "lon": 121.7530421,
     "rating": 4.5,
-    "review_count": 494,
+    "review_count": 497,
     "category": "food_store",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -7126,11 +7372,11 @@
   },
   {
     "id": "ChIJvXjif8LkZzQRzAAXLUbSCqg",
-    "name": "天天來水餃館",
+    "name": "天天來水餃館（蒜頭）",
     "lat": 24.746589099999998,
     "lon": 121.7519848,
-    "rating": 3.8,
-    "review_count": 879,
+    "rating": 3.7,
+    "review_count": 894,
     "category": "dumpling_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -7220,7 +7466,7 @@
     "lat": 24.7492135,
     "lon": 121.75211490000001,
     "rating": 4.1,
-    "review_count": 1139,
+    "review_count": 1146,
     "category": "restaurant",
     "price_level": 1,
     "food_groups": [
@@ -7310,7 +7556,7 @@
     "lat": 24.7470571,
     "lon": 121.7376599,
     "rating": 4.0,
-    "review_count": 366,
+    "review_count": 377,
     "category": "brunch_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -7369,18 +7615,6 @@
         },
         {
           "open": {
-            "day": 4,
-            "hour": 6,
-            "minute": 30
-          },
-          "close": {
-            "day": 4,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
             "day": 5,
             "hour": 6,
             "minute": 30
@@ -7413,7 +7647,7 @@
     "lat": 24.744922,
     "lon": 121.74425910000001,
     "rating": 4.6,
-    "review_count": 265,
+    "review_count": 268,
     "category": "restaurant",
     "price_level": 2,
     "food_groups": [
@@ -7575,7 +7809,7 @@
     "lat": 24.747909699999997,
     "lon": 121.7428554,
     "rating": 4.4,
-    "review_count": 366,
+    "review_count": 370,
     "category": "restaurant",
     "price_level": 2,
     "food_groups": [
@@ -7665,9 +7899,9 @@
     "lat": 24.745733299999998,
     "lon": 121.74219579999999,
     "rating": 4.9,
-    "review_count": 3584,
+    "review_count": 3581,
     "category": "restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -7769,7 +8003,7 @@
     "rating": 4.2,
     "review_count": 385,
     "category": "coffee_shop",
-    "price_level": 2,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -7868,10 +8102,10 @@
     "name": "85度C咖啡蛋糕飲料麵包(宜蘭女中店)",
     "lat": 24.745979600000002,
     "lon": 121.7404834,
-    "rating": 3.7,
-    "review_count": 79,
+    "rating": 3.8,
+    "review_count": 81,
     "category": "cafe",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -7971,9 +8205,9 @@
     "lat": 24.7448584,
     "lon": 121.74490949999999,
     "rating": 4.7,
-    "review_count": 204,
+    "review_count": 209,
     "category": "breakfast_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類"
     ],
@@ -8049,7 +8283,7 @@
     "lat": 24.746997200000003,
     "lon": 121.74927289999998,
     "rating": 3.8,
-    "review_count": 478,
+    "review_count": 481,
     "category": "cafe",
     "price_level": 1,
     "food_groups": [
@@ -8151,7 +8385,7 @@
     "lat": 24.7477031,
     "lon": 121.74986479999998,
     "rating": 3.5,
-    "review_count": 172,
+    "review_count": 176,
     "category": "internet_cafe",
     "price_level": null,
     "food_groups": [
@@ -8172,13 +8406,13 @@
   },
   {
     "id": "ChIJ-aEXuYzlZzQRKLQ9IiXPFe0",
-    "name": "❤️五國真湯宜蘭店|宜蘭平價美食|推薦餐廳|必吃餐廳|人氣美食推薦",
+    "name": "五國真湯宜蘭店",
     "lat": 24.7477943,
     "lon": 121.7496201,
     "rating": 4.8,
-    "review_count": 857,
+    "review_count": 855,
     "category": "restaurant",
-    "price_level": 2,
+    "price_level": 1,
     "food_groups": [
       "火鍋類"
     ],
@@ -8368,9 +8602,9 @@
     "lat": 24.7445932,
     "lon": 121.7494166,
     "rating": 4.8,
-    "review_count": 816,
+    "review_count": 835,
     "category": "hot_pot_restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "火鍋類"
     ],
@@ -8458,7 +8692,7 @@
     "lat": 24.749357099999997,
     "lon": 121.75067449999999,
     "rating": 4.6,
-    "review_count": 266,
+    "review_count": 270,
     "category": "breakfast_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -8474,30 +8708,6 @@
           },
           "close": {
             "day": 0,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 7,
-            "minute": 0
-          },
-          "close": {
-            "day": 1,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 7,
-            "minute": 0
-          },
-          "close": {
-            "day": 2,
             "hour": 13,
             "minute": 30
           }
@@ -8560,9 +8770,9 @@
     "lat": 24.7495214,
     "lon": 121.7507668,
     "rating": 5.0,
-    "review_count": 1803,
+    "review_count": 1812,
     "category": "japanese_izakaya_restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "日式料理類"
     ],
@@ -8649,8 +8859,8 @@
     "name": "小玉定和食",
     "lat": 24.7463714,
     "lon": 121.7517647,
-    "rating": 4.5,
-    "review_count": 920,
+    "rating": 4.6,
+    "review_count": 1012,
     "category": "japanese_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -8678,30 +8888,6 @@
           },
           "close": {
             "day": 0,
-            "hour": 20,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 11,
-            "minute": 30
-          },
-          "close": {
-            "day": 2,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 2,
             "hour": 20,
             "minute": 30
           }
@@ -8812,7 +8998,7 @@
     "lat": 24.7452492,
     "lon": 121.75218989999999,
     "rating": 4.9,
-    "review_count": 8705,
+    "review_count": 10026,
     "category": "japanese_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -8974,9 +9160,9 @@
     "lat": 24.7451308,
     "lon": 121.75229999999999,
     "rating": 4.5,
-    "review_count": 823,
+    "review_count": 826,
     "category": "dessert_shop",
-    "price_level": 2,
+    "price_level": null,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -9214,8 +9400,8 @@
     "lat": 24.745545399999997,
     "lon": 121.75249779999999,
     "rating": 4.2,
-    "review_count": 589,
-    "category": "restaurant",
+    "review_count": 597,
+    "category": "chinese_restaurant",
     "price_level": 1,
     "food_groups": [
       "炸物類"
@@ -9400,9 +9586,9 @@
     "lat": 24.7450749,
     "lon": 121.74000380000001,
     "rating": 4.0,
-    "review_count": 309,
+    "review_count": 313,
     "category": "brunch_restaurant",
-    "price_level": 2,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -9490,9 +9676,9 @@
     "lat": 24.7448625,
     "lon": 121.7447625,
     "rating": 4.6,
-    "review_count": 275,
+    "review_count": 280,
     "category": "chinese_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類"
     ],
@@ -9652,9 +9838,9 @@
     "lat": 24.746389699999998,
     "lon": 121.74243529999998,
     "rating": 4.6,
-    "review_count": 114,
+    "review_count": 116,
     "category": "vegan_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "素食蔬食類"
     ],
@@ -9669,7 +9855,7 @@
           "close": {
             "day": 0,
             "hour": 22,
-            "minute": 30
+            "minute": 0
           }
         },
         {
@@ -9681,145 +9867,55 @@
           "close": {
             "day": 1,
             "hour": 22,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 2,
-            "hour": 22,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 3,
-            "hour": 22,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 4,
-            "hour": 22,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 6,
-            "hour": 22,
-            "minute": 30
-          }
-        }
-      ]
-    },
-    "business_status": "OPERATIONAL"
-  },
-  {
-    "id": "ChIJwUIYCeflZzQR4PZLpSG7UJM",
-    "name": "十分之一早午餐",
-    "lat": 24.7460594,
-    "lon": 121.74097440000001,
-    "rating": 4.5,
-    "review_count": 213,
-    "category": "brunch_restaurant",
-    "price_level": null,
-    "food_groups": [
-      "下午茶咖啡廳類"
-    ],
-    "regular_opening_hours": {
-      "periods": [
-        {
-          "open": {
-            "day": 0,
-            "hour": 7,
             "minute": 0
-          },
-          "close": {
-            "day": 0,
-            "hour": 13,
-            "minute": 30
           }
         },
         {
           "open": {
             "day": 2,
-            "hour": 6,
+            "hour": 16,
             "minute": 30
           },
           "close": {
             "day": 2,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 6,
-            "minute": 30
-          },
-          "close": {
-            "day": 3,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 6,
-            "minute": 30
-          },
-          "close": {
-            "day": 4,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 6,
-            "minute": 30
-          },
-          "close": {
-            "day": 5,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 7,
+            "hour": 22,
             "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 16,
+            "minute": 30
+          },
+          "close": {
+            "day": 3,
+            "hour": 22,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 16,
+            "minute": 30
+          },
+          "close": {
+            "day": 4,
+            "hour": 22,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 16,
+            "minute": 30
           },
           "close": {
             "day": 6,
-            "hour": 13,
-            "minute": 30
+            "hour": 22,
+            "minute": 0
           }
         }
       ]
@@ -9832,9 +9928,9 @@
     "lat": 24.7482205,
     "lon": 121.7430291,
     "rating": 4.3,
-    "review_count": 101,
+    "review_count": 102,
     "category": "brunch_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -9917,12 +10013,282 @@
     "business_status": "OPERATIONAL"
   },
   {
+    "id": "ChIJlQgcYJPkZzQRAbXY5AghTBc",
+    "name": "Barn Bakery",
+    "lat": 24.7488064,
+    "lon": 121.7415742,
+    "rating": 4.5,
+    "review_count": 101,
+    "category": "bakery",
+    "price_level": 2,
+    "food_groups": [
+      "下午茶咖啡廳類"
+    ],
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "hour": 11,
+            "minute": 30
+          },
+          "close": {
+            "day": 0,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 11,
+            "minute": 30
+          },
+          "close": {
+            "day": 1,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 11,
+            "minute": 30
+          },
+          "close": {
+            "day": 2,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 11,
+            "minute": 30
+          },
+          "close": {
+            "day": 3,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 11,
+            "minute": 30
+          },
+          "close": {
+            "day": 4,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 11,
+            "minute": 30
+          },
+          "close": {
+            "day": 5,
+            "hour": 20,
+            "minute": 0
+          }
+        }
+      ]
+    },
+    "business_status": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJlTT1Wt7lZzQRf24HSH4hjhM",
+    "name": "Whisky Dude",
+    "lat": 24.7447956,
+    "lon": 121.7463258,
+    "rating": 4.9,
+    "review_count": 149,
+    "category": "restaurant",
+    "price_level": 2,
+    "food_groups": [
+      "其他"
+    ],
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "hour": 20,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 1,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 20,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 1,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 20,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 1,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 20,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 1,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 20,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 1,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 20,
+            "minute": 0
+          },
+          "close": {
+            "day": 0,
+            "hour": 1,
+            "minute": 0
+          }
+        }
+      ]
+    },
+    "business_status": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJIbygCZnlZzQRuvqx7Cd5oLU",
+    "name": "浪日輕食研究所",
+    "lat": 24.744804,
+    "lon": 121.745892,
+    "rating": 4.4,
+    "review_count": 111,
+    "category": "brunch_restaurant",
+    "price_level": 1,
+    "food_groups": [
+      "下午茶咖啡廳類"
+    ],
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "hour": 19,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 1,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 19,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 1,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 19,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 1,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 19,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 1,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 19,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 1,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 19,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 1,
+            "minute": 30
+          }
+        }
+      ]
+    },
+    "business_status": "OPERATIONAL"
+  },
+  {
     "id": "ChIJnWAAvcDlZzQRHcwYezgIcds",
     "name": "赤城鐵板燒料理",
     "lat": 24.744291,
     "lon": 121.74819049999999,
     "rating": 4.3,
-    "review_count": 472,
+    "review_count": 479,
     "category": "japanese_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -10084,7 +10450,7 @@
     "lat": 24.7440462,
     "lon": 121.7474061,
     "rating": 4.6,
-    "review_count": 483,
+    "review_count": 486,
     "category": "cafe",
     "price_level": 2,
     "food_groups": [
@@ -10174,9 +10540,9 @@
     "lat": 24.747209299999998,
     "lon": 121.74830779999999,
     "rating": 4.3,
-    "review_count": 314,
+    "review_count": 319,
     "category": "restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "熱炒合菜類"
     ],
@@ -10336,9 +10702,9 @@
     "lat": 24.7438601,
     "lon": 121.74806550000001,
     "rating": 4.3,
-    "review_count": 86,
+    "review_count": 91,
     "category": "chinese_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "燒腊港式類"
     ],
@@ -10426,7 +10792,7 @@
     "lat": 24.7421729,
     "lon": 121.74694070000001,
     "rating": 4.5,
-    "review_count": 471,
+    "review_count": 479,
     "category": "noodle_shop",
     "price_level": 1,
     "food_groups": [
@@ -10516,7 +10882,7 @@
     "lat": 24.7430795,
     "lon": 121.74793410000001,
     "rating": 4.4,
-    "review_count": 564,
+    "review_count": 570,
     "category": "japanese_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -10678,9 +11044,9 @@
     "lat": 24.7430359,
     "lon": 121.74782599999999,
     "rating": 4.6,
-    "review_count": 227,
+    "review_count": 230,
     "category": "brunch_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類",
       "便當類"
@@ -10737,18 +11103,6 @@
         },
         {
           "open": {
-            "day": 4,
-            "hour": 6,
-            "minute": 30
-          },
-          "close": {
-            "day": 4,
-            "hour": 13,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
             "day": 5,
             "hour": 6,
             "minute": 30
@@ -10781,7 +11135,7 @@
     "lat": 24.743009900000004,
     "lon": 121.74813630000001,
     "rating": 4.9,
-    "review_count": 363,
+    "review_count": 375,
     "category": "dessert_shop",
     "price_level": null,
     "food_groups": [
@@ -10883,9 +11237,9 @@
     "lat": 24.746408199999998,
     "lon": 121.74895930000001,
     "rating": 4.5,
-    "review_count": 272,
+    "review_count": 277,
     "category": "brunch_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -10985,9 +11339,9 @@
     "lat": 24.744863199999998,
     "lon": 121.7490994,
     "rating": 4.5,
-    "review_count": 343,
+    "review_count": 346,
     "category": "restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -11087,7 +11441,7 @@
     "lat": 24.744628,
     "lon": 121.74942799999998,
     "rating": 4.5,
-    "review_count": 1466,
+    "review_count": 1465,
     "category": "food_store",
     "price_level": 2,
     "food_groups": [
@@ -11249,9 +11603,9 @@
     "lat": 24.7465314,
     "lon": 121.7500788,
     "rating": 4.9,
-    "review_count": 240,
+    "review_count": 244,
     "category": "restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -11335,20 +11689,15 @@
   },
   {
     "id": "ChIJXdU53O7kZzQRqpIWiGNxw4U",
-    "name": "蝸牛慢慢走 蔬食料理|可停車|拉麵 披薩 定食 火鍋 咖啡|營業五六日一",
+    "name": "蝸牛慢慢走 蔬食料理｜可停車",
     "lat": 24.742916299999997,
     "lon": 121.75046839999999,
     "rating": 4.8,
-    "review_count": 740,
+    "review_count": 769,
     "category": "vegetarian_restaurant",
-    "price_level": 1,
+    "price_level": 2,
     "food_groups": [
-      "下午茶咖啡廳類",
-      "便當類",
-      "火鍋類",
-      "素食蔬食類",
-      "義式披薩類",
-      "麵食類"
+      "素食蔬食類"
     ],
     "regular_opening_hours": {
       "periods": [
@@ -11410,7 +11759,7 @@
     "lat": 24.7442517,
     "lon": 121.75060359999999,
     "rating": 4.0,
-    "review_count": 684,
+    "review_count": 689,
     "category": "italian_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -11596,9 +11945,9 @@
     "lat": 24.742283999999998,
     "lon": 121.75059399999999,
     "rating": 4.5,
-    "review_count": 117,
+    "review_count": 119,
     "category": "chinese_restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "便當類"
     ],
@@ -11734,7 +12083,7 @@
     "lat": 24.7462859,
     "lon": 121.7521387,
     "rating": 4.3,
-    "review_count": 969,
+    "review_count": 979,
     "category": "restaurant",
     "price_level": 1,
     "food_groups": [
@@ -11762,6 +12111,30 @@
           },
           "close": {
             "day": 0,
+            "hour": 20,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 11,
+            "minute": 30
+          },
+          "close": {
+            "day": 2,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
             "hour": 20,
             "minute": 30
           }
@@ -11872,7 +12245,7 @@
     "lat": 24.7465253,
     "lon": 121.7393881,
     "rating": 4.1,
-    "review_count": 158,
+    "review_count": 160,
     "category": "brunch_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -11962,7 +12335,7 @@
     "lat": 24.7447795,
     "lon": 121.74119559999998,
     "rating": 3.7,
-    "review_count": 128,
+    "review_count": 130,
     "category": "breakfast_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -12272,6 +12645,18 @@
         },
         {
           "open": {
+            "day": 4,
+            "hour": 21,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 2,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
             "day": 5,
             "hour": 21,
             "minute": 0
@@ -12304,7 +12689,7 @@
     "lat": 24.744939400000003,
     "lon": 121.7441396,
     "rating": 4.3,
-    "review_count": 186,
+    "review_count": 192,
     "category": "bistro",
     "price_level": 1,
     "food_groups": [
@@ -12466,9 +12851,9 @@
     "lat": 24.746302999999997,
     "lon": 121.74241119999999,
     "rating": 4.9,
-    "review_count": 230,
+    "review_count": 231,
     "category": "chinese_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "滷味類"
     ],
@@ -12551,12 +12936,150 @@
     "business_status": "OPERATIONAL"
   },
   {
+    "id": "ChIJMcFfhOzkZzQRFwnAasMNCsw",
+    "name": "歡喜堂 便當-快餐",
+    "lat": 24.744809200000002,
+    "lon": 121.74452550000001,
+    "rating": 4.6,
+    "review_count": 180,
+    "category": "restaurant",
+    "price_level": 1,
+    "food_groups": [
+      "便當類"
+    ],
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 1,
+            "hour": 10,
+            "minute": 30
+          },
+          "close": {
+            "day": 1,
+            "hour": 13,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 16,
+            "minute": 30
+          },
+          "close": {
+            "day": 1,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 10,
+            "minute": 30
+          },
+          "close": {
+            "day": 2,
+            "hour": 13,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 16,
+            "minute": 30
+          },
+          "close": {
+            "day": 2,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 10,
+            "minute": 30
+          },
+          "close": {
+            "day": 3,
+            "hour": 13,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 16,
+            "minute": 30
+          },
+          "close": {
+            "day": 3,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 10,
+            "minute": 30
+          },
+          "close": {
+            "day": 4,
+            "hour": 13,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 16,
+            "minute": 30
+          },
+          "close": {
+            "day": 4,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 10,
+            "minute": 30
+          },
+          "close": {
+            "day": 5,
+            "hour": 13,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 16,
+            "minute": 30
+          },
+          "close": {
+            "day": 5,
+            "hour": 20,
+            "minute": 0
+          }
+        }
+      ]
+    },
+    "business_status": "OPERATIONAL"
+  },
+  {
     "id": "ChIJpWutENDkZzQRXk7UMpYNOVI",
     "name": "三杯香滷味",
     "lat": 24.7421579,
     "lon": 121.74627539999997,
     "rating": 4.5,
-    "review_count": 430,
+    "review_count": 433,
     "category": "restaurant",
     "price_level": 1,
     "food_groups": [
@@ -12629,102 +13152,12 @@
     "business_status": "OPERATIONAL"
   },
   {
-    "id": "ChIJIbygCZnlZzQRuvqx7Cd5oLU",
-    "name": "浪日輕食研究所",
-    "lat": 24.744804,
-    "lon": 121.745892,
-    "rating": 4.4,
-    "review_count": 111,
-    "category": "brunch_restaurant",
-    "price_level": null,
-    "food_groups": [
-      "下午茶咖啡廳類"
-    ],
-    "regular_opening_hours": {
-      "periods": [
-        {
-          "open": {
-            "day": 0,
-            "hour": 19,
-            "minute": 0
-          },
-          "close": {
-            "day": 1,
-            "hour": 1,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 19,
-            "minute": 0
-          },
-          "close": {
-            "day": 2,
-            "hour": 1,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 19,
-            "minute": 0
-          },
-          "close": {
-            "day": 3,
-            "hour": 1,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 19,
-            "minute": 0
-          },
-          "close": {
-            "day": 4,
-            "hour": 1,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 19,
-            "minute": 0
-          },
-          "close": {
-            "day": 5,
-            "hour": 1,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 19,
-            "minute": 0
-          },
-          "close": {
-            "day": 6,
-            "hour": 1,
-            "minute": 30
-          }
-        }
-      ]
-    },
-    "business_status": "OPERATIONAL"
-  },
-  {
     "id": "ChIJuwGYze3kZzQR2o-x4GRJMv8",
     "name": "麥味登 宜蘭弘力店",
     "lat": 24.7417372,
     "lon": 121.7471613,
     "rating": 4.0,
-    "review_count": 459,
+    "review_count": 462,
     "category": "brunch_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -12814,7 +13247,7 @@
     "lat": 24.7453634,
     "lon": 121.74882300000002,
     "rating": 4.5,
-    "review_count": 1224,
+    "review_count": 1226,
     "category": "fast_food_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -12885,7 +13318,7 @@
         {
           "open": {
             "day": 5,
-            "hour": 16,
+            "hour": 11,
             "minute": 0
           },
           "close": {
@@ -12912,13 +13345,13 @@
   },
   {
     "id": "ChIJQ-qGCzvlZzQR0MqiOsjSDUs",
-    "name": "喝泰甜（今天有開）",
+    "name": "喝泰甜",
     "lat": 24.7456668,
     "lon": 121.74897229999998,
     "rating": 4.6,
-    "review_count": 642,
+    "review_count": 664,
     "category": "restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -12950,48 +13383,48 @@
         },
         {
           "open": {
-            "day": 2,
+            "day": 1,
             "hour": 11,
             "minute": 30
           },
           "close": {
-            "day": 2,
+            "day": 1,
             "hour": 14,
             "minute": 0
           }
         },
         {
           "open": {
-            "day": 2,
+            "day": 1,
             "hour": 16,
             "minute": 0
           },
           "close": {
-            "day": 2,
+            "day": 1,
             "hour": 22,
             "minute": 0
           }
         },
         {
           "open": {
-            "day": 3,
+            "day": 2,
             "hour": 11,
             "minute": 30
           },
           "close": {
-            "day": 3,
+            "day": 2,
             "hour": 14,
             "minute": 0
           }
         },
         {
           "open": {
-            "day": 3,
+            "day": 2,
             "hour": 16,
             "minute": 0
           },
           "close": {
-            "day": 3,
+            "day": 2,
             "hour": 22,
             "minute": 0
           }
@@ -13078,7 +13511,7 @@
     "lat": 24.7448344,
     "lon": 121.75028879999999,
     "rating": 4.6,
-    "review_count": 487,
+    "review_count": 489,
     "category": "chinese_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -13156,9 +13589,9 @@
     "lat": 24.7447893,
     "lon": 121.74941290000001,
     "rating": 4.9,
-    "review_count": 355,
+    "review_count": 361,
     "category": "breakfast_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類"
     ],
@@ -13246,7 +13679,7 @@
     "lat": 24.7458644,
     "lon": 121.7491257,
     "rating": 4.6,
-    "review_count": 491,
+    "review_count": 493,
     "category": "restaurant",
     "price_level": 1,
     "food_groups": [
@@ -13336,9 +13769,9 @@
     "lat": 24.7463154,
     "lon": 121.74929650000001,
     "rating": 4.5,
-    "review_count": 131,
+    "review_count": 134,
     "category": "",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -13438,7 +13871,7 @@
     "lat": 24.742733599999998,
     "lon": 121.75289350000001,
     "rating": 4.7,
-    "review_count": 1193,
+    "review_count": 1249,
     "category": "kebab_shop",
     "price_level": 2,
     "food_groups": [
@@ -13539,10 +13972,10 @@
     "name": "DANA Restaurant",
     "lat": 24.7422139,
     "lon": 121.7529131,
-    "rating": 4.8,
-    "review_count": 272,
+    "rating": 4.7,
+    "review_count": 284,
     "category": "restaurant",
-    "price_level": null,
+    "price_level": 4,
     "food_groups": [
       "其他"
     ],
@@ -13678,7 +14111,7 @@
     "lat": 24.743869399999998,
     "lon": 121.75272659999999,
     "rating": 4.6,
-    "review_count": 365,
+    "review_count": 370,
     "category": "restaurant",
     "price_level": 1,
     "food_groups": [
@@ -13804,144 +14237,6 @@
             "day": 5,
             "hour": 18,
             "minute": 20
-          }
-        }
-      ]
-    },
-    "business_status": "OPERATIONAL"
-  },
-  {
-    "id": "ChIJMcFfhOzkZzQRFwnAasMNCsw",
-    "name": "歡喜堂 便當-快餐",
-    "lat": 24.744809200000002,
-    "lon": 121.74452550000001,
-    "rating": 4.6,
-    "review_count": 179,
-    "category": "restaurant",
-    "price_level": 1,
-    "food_groups": [
-      "便當類"
-    ],
-    "regular_opening_hours": {
-      "periods": [
-        {
-          "open": {
-            "day": 1,
-            "hour": 10,
-            "minute": 30
-          },
-          "close": {
-            "day": 1,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 1,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 10,
-            "minute": 30
-          },
-          "close": {
-            "day": 2,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 2,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 10,
-            "minute": 30
-          },
-          "close": {
-            "day": 3,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 3,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 10,
-            "minute": 30
-          },
-          "close": {
-            "day": 4,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 4,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 10,
-            "minute": 30
-          },
-          "close": {
-            "day": 5,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 5,
-            "hour": 20,
-            "minute": 0
           }
         }
       ]
@@ -13950,14 +14245,15 @@
   },
   {
     "id": "ChIJt4AL6vTlZzQRvV8TVnrMRAA",
-    "name": "康田灶豐•早餐•breakfast shop",
+    "name": "康田灶豐｜宜蘭早餐・早午餐",
     "lat": 24.7448981,
     "lon": 121.7443004,
     "rating": 4.3,
     "review_count": 153,
     "category": "breakfast_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
+      "下午茶咖啡廳類",
       "便當類"
     ],
     "regular_opening_hours": {
@@ -14032,18 +14328,6 @@
             "day": 5,
             "hour": 13,
             "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 7,
-            "minute": 0
-          },
-          "close": {
-            "day": 6,
-            "hour": 14,
-            "minute": 0
           }
         }
       ]
@@ -14058,7 +14342,7 @@
     "rating": 4.7,
     "review_count": 59,
     "category": "brunch_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -14134,9 +14418,9 @@
     "lat": 24.745030699999997,
     "lon": 121.74395229999998,
     "rating": 4.6,
-    "review_count": 185,
+    "review_count": 186,
     "category": "restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -14226,7 +14510,7 @@
     "rating": 3.5,
     "review_count": 130,
     "category": "restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類"
     ],
@@ -14314,7 +14598,7 @@
     "lat": 24.744919200000002,
     "lon": 121.7406801,
     "rating": 4.6,
-    "review_count": 107,
+    "review_count": 109,
     "category": "breakfast_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -14380,109 +14664,99 @@
     "lat": 24.7451205,
     "lon": 121.7435475,
     "rating": 4.4,
-    "review_count": 113,
+    "review_count": 112,
     "category": "restaurant",
     "price_level": 1,
     "food_groups": [
       "便當類",
       "日式料理類"
     ],
+    "business_status": "CLOSED_TEMPORARILY"
+  },
+  {
+    "id": "ChIJa-1y6xrlZzQRAmtMLNNiJ0E",
+    "name": "早稻甜早餐屋",
+    "lat": 24.745739,
+    "lon": 121.74247600000001,
+    "rating": 4.8,
+    "review_count": 183,
+    "category": "breakfast_restaurant",
+    "price_level": 1,
+    "food_groups": [
+      "便當類"
+    ],
     "regular_opening_hours": {
       "periods": [
         {
           "open": {
+            "day": 1,
+            "hour": 6,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 13,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
             "day": 2,
-            "hour": 11,
+            "hour": 6,
             "minute": 0
           },
           "close": {
             "day": 2,
             "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 2,
-            "hour": 19,
-            "minute": 30
+            "minute": 0
           }
         },
         {
           "open": {
             "day": 3,
-            "hour": 11,
+            "hour": 6,
             "minute": 0
           },
           "close": {
             "day": 3,
             "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 3,
-            "hour": 19,
-            "minute": 30
+            "minute": 0
           }
         },
         {
           "open": {
             "day": 4,
-            "hour": 0,
+            "hour": 6,
             "minute": 0
           },
           "close": {
             "day": 4,
             "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 4,
-            "hour": 19,
-            "minute": 30
+            "minute": 0
           }
         },
         {
           "open": {
             "day": 5,
-            "hour": 11,
+            "hour": 6,
             "minute": 0
           },
           "close": {
             "day": 5,
             "hour": 13,
-            "minute": 30
+            "minute": 0
           }
         },
         {
           "open": {
-            "day": 5,
-            "hour": 16,
-            "minute": 30
+            "day": 6,
+            "hour": 6,
+            "minute": 0
           },
           "close": {
-            "day": 5,
-            "hour": 20,
-            "minute": 30
+            "day": 6,
+            "hour": 13,
+            "minute": 0
           }
         }
       ]
@@ -14497,7 +14771,7 @@
     "rating": 4.4,
     "review_count": 116,
     "category": "restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "麵食類"
     ],
@@ -14683,7 +14957,7 @@
     "rating": 4.5,
     "review_count": 486,
     "category": "bakery",
-    "price_level": 2,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -14767,13 +15041,13 @@
   },
   {
     "id": "ChIJ-8dWLhLlZzQRVX0UYUTGyF4",
-    "name": "羊大俠（5/11調漲、微增份量、新增品項、調整時段）",
+    "name": "羊大俠",
     "lat": 24.7430949,
     "lon": 121.74769850000001,
     "rating": 4.7,
-    "review_count": 167,
+    "review_count": 174,
     "category": "chinese_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類"
     ],
@@ -14909,9 +15183,9 @@
     "lat": 24.744611,
     "lon": 121.74804510000001,
     "rating": 3.4,
-    "review_count": 320,
+    "review_count": 322,
     "category": "taiwanese_restaurant",
-    "price_level": 2,
+    "price_level": 1,
     "food_groups": [
       "便當類"
     ],
@@ -15011,9 +15285,9 @@
     "lat": 24.743081099999998,
     "lon": 121.7478797,
     "rating": 4.9,
-    "review_count": 1450,
+    "review_count": 1470,
     "category": "hot_pot_restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "火鍋類"
     ],
@@ -15149,9 +15423,9 @@
     "lat": 24.7442346,
     "lon": 121.7507971,
     "rating": 4.3,
-    "review_count": 214,
+    "review_count": 217,
     "category": "noodle_shop",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "麵食類"
     ],
@@ -15239,9 +15513,9 @@
     "lat": 24.7422018,
     "lon": 121.7525568,
     "rating": 4.6,
-    "review_count": 94,
+    "review_count": 96,
     "category": "restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "其他"
     ],
@@ -15329,7 +15603,7 @@
     "lat": 24.754359299999997,
     "lon": 121.74746729999998,
     "rating": 4.3,
-    "review_count": 5536,
+    "review_count": 5563,
     "category": "restaurant",
     "price_level": 1,
     "food_groups": [
@@ -15419,9 +15693,9 @@
     "lat": 24.749721599999997,
     "lon": 121.75236419999999,
     "rating": 4.9,
-    "review_count": 237,
+    "review_count": 240,
     "category": "coffee_shop",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -15546,14 +15820,105 @@
     "business_status": "OPERATIONAL"
   },
   {
+    "id": "ChIJnTTPIkXlZzQReI-UsexKq48",
+    "name": "小豆田茶餐室DOMO（營業時間以粉絲專頁公告為主）/宜蘭下午茶/宜蘭咖啡廳/戚風蛋糕/蔬食料理/宜蘭午餐晚餐",
+    "lat": 24.752000199999998,
+    "lon": 121.7479154,
+    "rating": 4.8,
+    "review_count": 277,
+    "category": "coffee_shop",
+    "price_level": 2,
+    "food_groups": [
+      "下午茶咖啡廳類",
+      "素食蔬食類"
+    ],
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "hour": 12,
+            "minute": 0
+          },
+          "close": {
+            "day": 0,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 15,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 12,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 12,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 12,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 12,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 20,
+            "minute": 0
+          }
+        }
+      ]
+    },
+    "business_status": "OPERATIONAL"
+  },
+  {
     "id": "ChIJ12a0SyPlZzQRt7uAvIhdNhE",
     "name": "Nuts Cafe",
     "lat": 24.746423,
     "lon": 121.75205790000001,
     "rating": 4.8,
-    "review_count": 240,
+    "review_count": 243,
     "category": "cafe",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -15731,7 +16096,7 @@
     "lat": 24.745665499999998,
     "lon": 121.7544499,
     "rating": 4.6,
-    "review_count": 304,
+    "review_count": 309,
     "category": "cafe",
     "price_level": 2,
     "food_groups": [
@@ -15821,9 +16186,9 @@
     "lat": 24.754287299999998,
     "lon": 121.7436309,
     "rating": 4.7,
-    "review_count": 91,
+    "review_count": 97,
     "category": "coffee_shop",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -15911,9 +16276,9 @@
     "lat": 24.7496574,
     "lon": 121.7482474,
     "rating": 4.9,
-    "review_count": 266,
+    "review_count": 267,
     "category": "coffee_shop",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -16035,7 +16400,7 @@
     "rating": 4.3,
     "review_count": 43,
     "category": "coffee_shop",
-    "price_level": 2,
+    "price_level": null,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -16061,9 +16426,9 @@
     "lat": 24.750506800000004,
     "lon": 121.73784859999999,
     "rating": 5.0,
-    "review_count": 26,
+    "review_count": 32,
     "category": "coffee_shop",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -16146,6 +16511,108 @@
     "business_status": "OPERATIONAL"
   },
   {
+    "id": "ChIJudaXZMPkZzQRaSYPTofprd8",
+    "name": "Mos Burger",
+    "lat": 24.7539005,
+    "lon": 121.7500348,
+    "rating": 3.6,
+    "review_count": 372,
+    "category": "fast_food_restaurant",
+    "price_level": 1,
+    "food_groups": [
+      "炸物類"
+    ],
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "hour": 8,
+            "minute": 0
+          },
+          "close": {
+            "day": 0,
+            "hour": 21,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 8,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 21,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 8,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 21,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 8,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 21,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 8,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 21,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 8,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 22,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 8,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 22,
+            "minute": 0
+          }
+        }
+      ]
+    },
+    "business_status": "OPERATIONAL"
+  },
+  {
     "id": "ChIJ0xf2agDlZzQR8sAeOQtDHB4",
     "name": "有涼意- 熱拌麵〔咖喱/椒芝〕醬。涼麵。醒神港味冰鎭厚奶茶。古法川貝烏梅汁",
     "lat": 24.749631599999997,
@@ -16153,7 +16620,7 @@
     "rating": 5.0,
     "review_count": 19,
     "category": "fast_food_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "炸物類"
     ],
@@ -16162,73 +16629,73 @@
         {
           "open": {
             "day": 1,
-            "hour": 11,
+            "hour": 10,
             "minute": 30
           },
           "close": {
             "day": 1,
-            "hour": 18,
-            "minute": 45
+            "hour": 16,
+            "minute": 0
           }
         },
         {
           "open": {
             "day": 2,
-            "hour": 11,
+            "hour": 10,
             "minute": 30
           },
           "close": {
             "day": 2,
-            "hour": 18,
-            "minute": 45
+            "hour": 16,
+            "minute": 0
           }
         },
         {
           "open": {
             "day": 3,
-            "hour": 11,
+            "hour": 10,
             "minute": 30
           },
           "close": {
             "day": 3,
-            "hour": 18,
-            "minute": 45
+            "hour": 16,
+            "minute": 0
           }
         },
         {
           "open": {
             "day": 4,
-            "hour": 11,
+            "hour": 10,
             "minute": 30
           },
           "close": {
             "day": 4,
-            "hour": 18,
-            "minute": 45
+            "hour": 16,
+            "minute": 0
           }
         },
         {
           "open": {
             "day": 5,
-            "hour": 11,
-            "minute": 30
+            "hour": 0,
+            "minute": 0
           },
           "close": {
             "day": 5,
-            "hour": 18,
-            "minute": 45
+            "hour": 16,
+            "minute": 0
           }
         },
         {
           "open": {
             "day": 6,
-            "hour": 11,
+            "hour": 10,
             "minute": 30
           },
           "close": {
             "day": 6,
-            "hour": 18,
-            "minute": 45
+            "hour": 16,
+            "minute": 0
           }
         }
       ]
@@ -16243,7 +16710,7 @@
     "rating": 4.6,
     "review_count": 119,
     "category": "fast_food_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "炸物類"
     ],
@@ -16255,9 +16722,9 @@
     "lat": 24.752882399999997,
     "lon": 121.75070869999999,
     "rating": 4.8,
-    "review_count": 1551,
+    "review_count": 1587,
     "category": "restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "熱炒合菜類"
     ],
@@ -16345,7 +16812,7 @@
     "lat": 24.747820700000002,
     "lon": 121.74990670000001,
     "rating": 4.2,
-    "review_count": 474,
+    "review_count": 475,
     "category": "meal_takeaway",
     "price_level": 2,
     "food_groups": [
@@ -16447,7 +16914,7 @@
     "lat": 24.7467962,
     "lon": 121.75492,
     "rating": 4.6,
-    "review_count": 1958,
+    "review_count": 1951,
     "category": "snack_bar",
     "price_level": 2,
     "food_groups": [
@@ -16462,9 +16929,9 @@
     "lat": 24.7532903,
     "lon": 121.7493396,
     "rating": 4.7,
-    "review_count": 369,
+    "review_count": 377,
     "category": "pizza_restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "義式披薩類"
     ],
@@ -16588,9 +17055,9 @@
     "lat": 24.7474644,
     "lon": 121.7549174,
     "rating": 4.9,
-    "review_count": 73,
+    "review_count": 74,
     "category": "snack_bar",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "炸物類"
     ],
@@ -16690,7 +17157,7 @@
     "lat": 24.7452813,
     "lon": 121.73781919999998,
     "rating": 4.0,
-    "review_count": 175,
+    "review_count": 176,
     "category": "snack_bar",
     "price_level": 1,
     "food_groups": [
@@ -16853,9 +17320,9 @@
     "lat": 24.747386199999998,
     "lon": 121.74951,
     "rating": 4.5,
-    "review_count": 88,
+    "review_count": 93,
     "category": "snack_bar",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類",
       "炸物類"
@@ -16944,7 +17411,7 @@
     "lat": 24.754043,
     "lon": 121.75082900000001,
     "rating": 4.2,
-    "review_count": 836,
+    "review_count": 840,
     "category": "italian_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -17132,7 +17599,7 @@
     "rating": 4.0,
     "review_count": 177,
     "category": "meal_takeaway",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類",
       "炸物類"
@@ -17228,14 +17695,105 @@
     "business_status": "OPERATIONAL"
   },
   {
+    "id": "ChIJm-NERTvlZzQRF30jPy8OtSI",
+    "name": "復興炭烤雞排 （賣完提早收 歡迎電話預訂）",
+    "lat": 24.7493294,
+    "lon": 121.74724160000001,
+    "rating": 4.5,
+    "review_count": 44,
+    "category": "meal_takeaway",
+    "price_level": 1,
+    "food_groups": [
+      "便當類",
+      "炸物類"
+    ],
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "hour": 18,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 1,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 18,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 1,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 18,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 1,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 18,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 1,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 18,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 1,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 18,
+            "minute": 0
+          },
+          "close": {
+            "day": 0,
+            "hour": 1,
+            "minute": 0
+          }
+        }
+      ]
+    },
+    "business_status": "OPERATIONAL"
+  },
+  {
     "id": "ChIJXXf4jt_lZzQRDNrcJMmWFyw",
     "name": "炸小雞雞-宜蘭美食",
     "lat": 24.7521646,
     "lon": 121.7397765,
     "rating": 5.0,
-    "review_count": 797,
+    "review_count": 808,
     "category": "meal_takeaway",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類",
       "炸物類"
@@ -17312,9 +17870,9 @@
     "lat": 24.7421822,
     "lon": 121.7472865,
     "rating": 4.2,
-    "review_count": 34,
+    "review_count": 35,
     "category": "snack_bar",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "炸物類"
     ],
@@ -17367,6 +17925,30 @@
             "hour": 14,
             "minute": 0
           }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 10,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 10,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 14,
+            "minute": 0
+          }
         }
       ]
     },
@@ -17378,7 +17960,7 @@
     "lat": 24.746567799999998,
     "lon": 121.75385510000001,
     "rating": 4.0,
-    "review_count": 149,
+    "review_count": 151,
     "category": "restaurant",
     "price_level": 1,
     "food_groups": [
@@ -17456,26 +18038,14 @@
     "lat": 24.7476058,
     "lon": 121.7498304,
     "rating": 4.9,
-    "review_count": 15,
+    "review_count": 16,
     "category": "snack_bar",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "炸物類"
     ],
     "regular_opening_hours": {
       "periods": [
-        {
-          "open": {
-            "day": 1,
-            "hour": 15,
-            "minute": 0
-          },
-          "close": {
-            "day": 1,
-            "hour": 21,
-            "minute": 0
-          }
-        },
         {
           "open": {
             "day": 2,
@@ -17548,7 +18118,7 @@
     "rating": 4.8,
     "review_count": 18,
     "category": "meal_takeaway",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類",
       "炸物類"
@@ -17648,8 +18218,8 @@
     "name": "大象餐食",
     "lat": 24.7460239,
     "lon": 121.7555437,
-    "rating": 4.3,
-    "review_count": 32,
+    "rating": 4.2,
+    "review_count": 34,
     "category": "snack_bar",
     "price_level": null,
     "food_groups": [
@@ -17789,7 +18359,7 @@
     "rating": 5.0,
     "review_count": 24,
     "category": "snack_bar",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "滷味類",
       "炸物類"
@@ -17802,9 +18372,9 @@
     "lat": 24.746095999999998,
     "lon": 121.749192,
     "rating": 4.9,
-    "review_count": 57,
+    "review_count": 59,
     "category": "snack_bar",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "炸物類"
     ],
@@ -17830,6 +18400,18 @@
           },
           "close": {
             "day": 2,
+            "hour": 0,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 15,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
             "hour": 0,
             "minute": 0
           }
@@ -17892,9 +18474,9 @@
     "lat": 24.750111099999998,
     "lon": 121.7443444,
     "rating": 5.0,
-    "review_count": 26,
+    "review_count": 29,
     "category": "snack_bar",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "炸物類"
     ],
@@ -18080,7 +18662,7 @@
     "rating": 5.0,
     "review_count": 6,
     "category": "meal_takeaway",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類",
       "日式料理類"
@@ -18152,130 +18734,12 @@
     "business_status": "OPERATIONAL"
   },
   {
-    "id": "ChIJyxaflr3lZzQRsCGTr-E3J78",
-    "name": "四分半冷凍披薩自助結帳24H（目前無提供加熱）",
-    "lat": 24.7532903,
-    "lon": 121.7493396,
-    "rating": 4.0,
-    "review_count": 12,
-    "category": "meal_takeaway",
-    "price_level": null,
-    "food_groups": [
-      "便當類",
-      "義式披薩類"
-    ],
-    "business_status": "OPERATIONAL"
-  },
-  {
-    "id": "ChIJnTTPIkXlZzQReI-UsexKq48",
-    "name": "小豆田茶餐室DOMO（營業時間以粉絲專頁公告為主）/宜蘭下午茶/宜蘭咖啡廳/戚風蛋糕/蔬食料理/宜蘭午餐晚餐",
-    "lat": 24.752000199999998,
-    "lon": 121.7479154,
-    "rating": 4.8,
-    "review_count": 275,
-    "category": "food_store",
-    "price_level": null,
-    "food_groups": [
-      "下午茶咖啡廳類",
-      "素食蔬食類"
-    ],
-    "regular_opening_hours": {
-      "periods": [
-        {
-          "open": {
-            "day": 0,
-            "hour": 12,
-            "minute": 0
-          },
-          "close": {
-            "day": 0,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 12,
-            "minute": 0
-          },
-          "close": {
-            "day": 1,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 12,
-            "minute": 0
-          },
-          "close": {
-            "day": 2,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 12,
-            "minute": 0
-          },
-          "close": {
-            "day": 3,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 12,
-            "minute": 0
-          },
-          "close": {
-            "day": 4,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 12,
-            "minute": 0
-          },
-          "close": {
-            "day": 5,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 12,
-            "minute": 0
-          },
-          "close": {
-            "day": 6,
-            "hour": 20,
-            "minute": 0
-          }
-        }
-      ]
-    },
-    "business_status": "OPERATIONAL"
-  },
-  {
     "id": "ChIJIVIvxkvlZzQRvkvlXwrVLBE",
     "name": "喜歡的湯包",
     "lat": 24.747422399999998,
     "lon": 121.75495500000001,
     "rating": 4.5,
-    "review_count": 138,
+    "review_count": 141,
     "category": "chinese_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -18327,7 +18791,7 @@
           },
           "close": {
             "day": 6,
-            "hour": 3,
+            "hour": 1,
             "minute": 0
           }
         },
@@ -18353,9 +18817,9 @@
     "lat": 24.7538909,
     "lon": 121.74310039999999,
     "rating": 4.3,
-    "review_count": 485,
+    "review_count": 489,
     "category": "chinese_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類"
     ],
@@ -18515,7 +18979,7 @@
     "lat": 24.7462211,
     "lon": 121.749252,
     "rating": 2.2,
-    "review_count": 603,
+    "review_count": 625,
     "category": "dumpling_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -18617,7 +19081,7 @@
     "lat": 24.749020599999998,
     "lon": 121.7480906,
     "rating": 4.2,
-    "review_count": 333,
+    "review_count": 332,
     "category": "chinese_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -18803,7 +19267,7 @@
     "lat": 24.748051399999998,
     "lon": 121.7549401,
     "rating": 4.3,
-    "review_count": 1767,
+    "review_count": 1776,
     "category": "hot_pot_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -18905,7 +19369,7 @@
     "lat": 24.7479385,
     "lon": 121.75232379999998,
     "rating": 4.2,
-    "review_count": 882,
+    "review_count": 889,
     "category": "japanese_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -19087,200 +19551,14 @@
     "business_status": "OPERATIONAL"
   },
   {
-    "id": "ChIJTx64uMvlZzQRPr-PNGmwogA",
-    "name": "初原麵場(宜蘭宜中店)",
-    "lat": 24.750432999999997,
-    "lon": 121.74387999999999,
-    "rating": 4.5,
-    "review_count": 340,
-    "category": "ramen_restaurant",
-    "price_level": 2,
-    "food_groups": [
-      "麵食類"
-    ],
-    "regular_opening_hours": {
-      "periods": [
-        {
-          "open": {
-            "day": 0,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 0,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 0,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 0,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 1,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 1,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 2,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 2,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 3,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 3,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 4,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 4,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 5,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 5,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 6,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 6,
-            "hour": 20,
-            "minute": 0
-          }
-        }
-      ]
-    },
-    "business_status": "OPERATIONAL"
-  },
-  {
     "id": "ChIJV_839PrlZzQRyBMXxJQEP_Q",
     "name": "鰻屋",
     "lat": 24.7490919,
     "lon": 121.7551116,
     "rating": 4.4,
-    "review_count": 158,
+    "review_count": 164,
     "category": "japanese_restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "日式料理類"
     ],
@@ -19464,7 +19742,7 @@
     "lat": 24.7540596,
     "lon": 121.75053489999999,
     "rating": 4.1,
-    "review_count": 682,
+    "review_count": 685,
     "category": "japanese_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -19569,7 +19847,7 @@
     "rating": 4.6,
     "review_count": 90,
     "category": "yakitori_restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "日式料理類",
       "熱炒合菜類"
@@ -19582,7 +19860,7 @@
     "lat": 24.748552099999998,
     "lon": 121.75081370000001,
     "rating": 3.5,
-    "review_count": 358,
+    "review_count": 361,
     "category": "japanese_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -19684,9 +19962,9 @@
     "lat": 24.747690100000003,
     "lon": 121.75150370000001,
     "rating": 4.8,
-    "review_count": 173,
+    "review_count": 182,
     "category": "japanese_restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "日式料理類"
     ],
@@ -19824,7 +20102,7 @@
     "rating": 4.9,
     "review_count": 456,
     "category": "sushi_restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "日式料理類"
     ],
@@ -19912,7 +20190,7 @@
     "lat": 24.747042999999998,
     "lon": 121.7550596,
     "rating": 4.8,
-    "review_count": 1624,
+    "review_count": 1639,
     "category": "restaurant",
     "price_level": 1,
     "food_groups": [
@@ -19940,6 +20218,18 @@
           },
           "close": {
             "day": 1,
+            "hour": 19,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 10,
+            "minute": 30
+          },
+          "close": {
+            "day": 3,
             "hour": 19,
             "minute": 30
           }
@@ -19989,10 +20279,10 @@
     "name": "Ajussi -阿啾西拉麵圖書館-宜蘭神農店",
     "lat": 24.7507532,
     "lon": 121.75094659999999,
-    "rating": 4.6,
-    "review_count": 178,
+    "rating": 4.5,
+    "review_count": 183,
     "category": "korean_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "韓式類",
       "麵食類"
@@ -20016,9 +20306,9 @@
     "lat": 24.7446897,
     "lon": 121.74849959999999,
     "rating": 4.8,
-    "review_count": 76,
+    "review_count": 81,
     "category": "korean_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "韓式類"
     ],
@@ -20026,13 +20316,25 @@
       "periods": [
         {
           "open": {
+            "day": 0,
+            "hour": 11,
+            "minute": 30
+          },
+          "close": {
+            "day": 0,
+            "hour": 19,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
             "day": 1,
             "hour": 11,
             "minute": 30
           },
           "close": {
             "day": 1,
-            "hour": 20,
+            "hour": 19,
             "minute": 30
           }
         },
@@ -20044,7 +20346,7 @@
           },
           "close": {
             "day": 2,
-            "hour": 20,
+            "hour": 19,
             "minute": 30
           }
         },
@@ -20056,8 +20358,8 @@
           },
           "close": {
             "day": 3,
-            "hour": 20,
-            "minute": 30
+            "hour": 19,
+            "minute": 0
           }
         },
         {
@@ -20068,8 +20370,20 @@
           },
           "close": {
             "day": 4,
-            "hour": 20,
+            "hour": 19,
             "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 11,
+            "minute": 30
+          },
+          "close": {
+            "day": 5,
+            "hour": 19,
+            "minute": 0
           }
         }
       ]
@@ -20084,7 +20398,7 @@
     "rating": 4.8,
     "review_count": 64,
     "category": "restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "素食蔬食類"
     ],
@@ -20098,7 +20412,7 @@
     "rating": 4.6,
     "review_count": 9,
     "category": "korean_restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "韓式類"
     ],
@@ -20193,12 +20507,26 @@
     "business_status": "OPERATIONAL"
   },
   {
+    "id": "ChIJHbHj_KzlZzQRFqPFMvhrbnM",
+    "name": "阿母飲食攤",
+    "lat": 24.7515724,
+    "lon": 121.73877679999998,
+    "rating": 5.0,
+    "review_count": 2,
+    "category": "korean_restaurant",
+    "price_level": null,
+    "food_groups": [
+      "韓式類"
+    ],
+    "business_status": "OPERATIONAL"
+  },
+  {
     "id": "ChIJO_wJD8TkZzQR-kRizBEYXr4",
     "name": "宜蘭長弘早點",
     "lat": 24.754360800000004,
     "lon": 121.74402409999999,
     "rating": 4.2,
-    "review_count": 254,
+    "review_count": 258,
     "category": "breakfast_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -20288,9 +20616,9 @@
     "lat": 24.7499899,
     "lon": 121.75395230000001,
     "rating": 4.5,
-    "review_count": 108,
+    "review_count": 114,
     "category": "breakfast_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類"
     ],
@@ -20378,7 +20706,7 @@
     "lat": 24.7482229,
     "lon": 121.74979660000001,
     "rating": 4.0,
-    "review_count": 457,
+    "review_count": 459,
     "category": "breakfast_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -20468,7 +20796,7 @@
     "lat": 24.750842199999997,
     "lon": 121.74992669999997,
     "rating": 4.4,
-    "review_count": 226,
+    "review_count": 236,
     "category": "breakfast_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -20480,72 +20808,72 @@
         {
           "open": {
             "day": 0,
-            "hour": 5,
+            "hour": 6,
             "minute": 0
           },
           "close": {
             "day": 0,
-            "hour": 15,
+            "hour": 14,
             "minute": 0
           }
         },
         {
           "open": {
             "day": 1,
-            "hour": 5,
+            "hour": 6,
             "minute": 0
           },
           "close": {
             "day": 1,
-            "hour": 15,
+            "hour": 14,
             "minute": 0
           }
         },
         {
           "open": {
             "day": 2,
-            "hour": 5,
+            "hour": 6,
             "minute": 0
           },
           "close": {
             "day": 2,
-            "hour": 15,
+            "hour": 14,
             "minute": 0
           }
         },
         {
           "open": {
             "day": 4,
-            "hour": 5,
+            "hour": 6,
             "minute": 0
           },
           "close": {
             "day": 4,
-            "hour": 15,
+            "hour": 14,
             "minute": 0
           }
         },
         {
           "open": {
             "day": 5,
-            "hour": 5,
+            "hour": 6,
             "minute": 0
           },
           "close": {
             "day": 5,
-            "hour": 15,
+            "hour": 14,
             "minute": 0
           }
         },
         {
           "open": {
             "day": 6,
-            "hour": 5,
+            "hour": 6,
             "minute": 0
           },
           "close": {
             "day": 6,
-            "hour": 15,
+            "hour": 14,
             "minute": 0
           }
         }
@@ -20559,7 +20887,7 @@
     "lat": 24.749010800000004,
     "lon": 121.75168819999999,
     "rating": 4.1,
-    "review_count": 435,
+    "review_count": 439,
     "category": "breakfast_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -20656,114 +20984,12 @@
     "business_status": "OPERATIONAL"
   },
   {
-    "id": "ChIJoxOZVIDlZzQRfmdGj9nLyE8",
-    "name": "麥味登 宜蘭中華店",
-    "lat": 24.747624,
-    "lon": 121.753473,
-    "rating": 4.7,
-    "review_count": 141,
-    "category": "breakfast_restaurant",
-    "price_level": null,
-    "food_groups": [
-      "便當類"
-    ],
-    "regular_opening_hours": {
-      "periods": [
-        {
-          "open": {
-            "day": 0,
-            "hour": 6,
-            "minute": 0
-          },
-          "close": {
-            "day": 0,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 6,
-            "minute": 0
-          },
-          "close": {
-            "day": 1,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 6,
-            "minute": 0
-          },
-          "close": {
-            "day": 2,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 6,
-            "minute": 0
-          },
-          "close": {
-            "day": 3,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 6,
-            "minute": 0
-          },
-          "close": {
-            "day": 4,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 6,
-            "minute": 0
-          },
-          "close": {
-            "day": 5,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 6,
-            "minute": 0
-          },
-          "close": {
-            "day": 6,
-            "hour": 13,
-            "minute": 30
-          }
-        }
-      ]
-    },
-    "business_status": "OPERATIONAL"
-  },
-  {
     "id": "ChIJjfbbWd3kZzQRVlMad5vOuxU",
     "name": "秀秀早餐店",
     "lat": 24.7486559,
     "lon": 121.75445330000001,
     "rating": 4.6,
-    "review_count": 49,
+    "review_count": 50,
     "category": "breakfast_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -20865,7 +21091,7 @@
     "lat": 24.7463807,
     "lon": 121.7529603,
     "rating": 4.3,
-    "review_count": 343,
+    "review_count": 345,
     "category": "breakfast_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -20943,7 +21169,7 @@
     "lat": 24.7503015,
     "lon": 121.75390360000002,
     "rating": 4.1,
-    "review_count": 337,
+    "review_count": 338,
     "category": "breakfast_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -21045,9 +21271,9 @@
     "lat": 24.7456896,
     "lon": 121.7489181,
     "rating": 5.0,
-    "review_count": 307,
+    "review_count": 310,
     "category": "breakfast_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類"
     ],
@@ -21057,60 +21283,60 @@
           "open": {
             "day": 1,
             "hour": 7,
-            "minute": 30
+            "minute": 0
           },
           "close": {
             "day": 1,
             "hour": 12,
-            "minute": 30
+            "minute": 0
           }
         },
         {
           "open": {
             "day": 2,
             "hour": 7,
-            "minute": 30
+            "minute": 0
           },
           "close": {
             "day": 2,
             "hour": 12,
-            "minute": 30
+            "minute": 0
           }
         },
         {
           "open": {
             "day": 3,
             "hour": 7,
-            "minute": 30
+            "minute": 0
           },
           "close": {
             "day": 3,
             "hour": 12,
-            "minute": 30
+            "minute": 0
           }
         },
         {
           "open": {
             "day": 4,
             "hour": 7,
-            "minute": 30
+            "minute": 0
           },
           "close": {
             "day": 4,
             "hour": 12,
-            "minute": 30
+            "minute": 0
           }
         },
         {
           "open": {
             "day": 5,
             "hour": 7,
-            "minute": 30
+            "minute": 0
           },
           "close": {
             "day": 5,
             "hour": 12,
-            "minute": 30
+            "minute": 0
           }
         }
       ]
@@ -21122,10 +21348,10 @@
     "name": "東方美早餐店",
     "lat": 24.7446897,
     "lon": 121.74849959999999,
-    "rating": 4.1,
-    "review_count": 97,
+    "rating": 4.0,
+    "review_count": 100,
     "category": "breakfast_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類"
     ],
@@ -21213,6 +21439,84 @@
             "day": 6,
             "hour": 12,
             "minute": 0
+          }
+        }
+      ]
+    },
+    "business_status": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJpzCYKOjkZzQRPXSYH076SMc",
+    "name": "晨升早點",
+    "lat": 24.746701299999998,
+    "lon": 121.75107510000001,
+    "rating": 4.1,
+    "review_count": 173,
+    "category": "breakfast_restaurant",
+    "price_level": 1,
+    "food_groups": [
+      "便當類"
+    ],
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "hour": 6,
+            "minute": 0
+          },
+          "close": {
+            "day": 0,
+            "hour": 11,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 6,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 11,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 6,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 11,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 6,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 11,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 6,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 11,
+            "minute": 30
           }
         }
       ]
@@ -21225,9 +21529,9 @@
     "lat": 24.7541522,
     "lon": 121.7456872,
     "rating": 4.7,
-    "review_count": 842,
+    "review_count": 844,
     "category": "pastry_shop",
-    "price_level": 1,
+    "price_level": null,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -21327,9 +21631,9 @@
     "lat": 24.753415099999998,
     "lon": 121.74910990000001,
     "rating": 4.5,
-    "review_count": 443,
+    "review_count": 445,
     "category": "bakery",
-    "price_level": 2,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -21429,9 +21733,9 @@
     "lat": 24.7543933,
     "lon": 121.74492149999999,
     "rating": 4.4,
-    "review_count": 288,
+    "review_count": 289,
     "category": "bakery",
-    "price_level": 1,
+    "price_level": 2,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -21531,9 +21835,9 @@
     "lat": 24.7541403,
     "lon": 121.74483439999999,
     "rating": 4.3,
-    "review_count": 276,
+    "review_count": 277,
     "category": "bakery",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類",
       "點心包子類"
@@ -21634,9 +21938,9 @@
     "lat": 24.7466952,
     "lon": 121.7530065,
     "rating": 4.6,
-    "review_count": 235,
+    "review_count": 236,
     "category": "bakery",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -21724,7 +22028,7 @@
     "lat": 24.7492652,
     "lon": 121.752444,
     "rating": 4.4,
-    "review_count": 128,
+    "review_count": 132,
     "category": "restaurant",
     "price_level": 1,
     "food_groups": [
@@ -21826,9 +22130,9 @@
     "lat": 24.754275099999997,
     "lon": 121.74734900000001,
     "rating": 4.5,
-    "review_count": 61,
+    "review_count": 67,
     "category": "bakery",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -21900,11 +22204,11 @@
   },
   {
     "id": "ChIJqQOuq9vkZzQRaDKn4LIarN8",
-    "name": "光嶼製菓",
+    "name": "KOYOÜ 光嶼製菓",
     "lat": 24.7456675,
     "lon": 121.7530158,
     "rating": 4.8,
-    "review_count": 428,
+    "review_count": 434,
     "category": "bakery",
     "price_level": null,
     "food_groups": [
@@ -21926,18 +22230,6 @@
         },
         {
           "open": {
-            "day": 4,
-            "hour": 12,
-            "minute": 0
-          },
-          "close": {
-            "day": 4,
-            "hour": 18,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
             "day": 5,
             "hour": 12,
             "minute": 0
@@ -21957,96 +22249,6 @@
           "close": {
             "day": 6,
             "hour": 18,
-            "minute": 0
-          }
-        }
-      ]
-    },
-    "business_status": "OPERATIONAL"
-  },
-  {
-    "id": "ChIJlQgcYJPkZzQRAbXY5AghTBc",
-    "name": "Barn Bakery",
-    "lat": 24.7488064,
-    "lon": 121.7415742,
-    "rating": 4.5,
-    "review_count": 100,
-    "category": "bakery",
-    "price_level": 2,
-    "food_groups": [
-      "下午茶咖啡廳類"
-    ],
-    "regular_opening_hours": {
-      "periods": [
-        {
-          "open": {
-            "day": 0,
-            "hour": 11,
-            "minute": 30
-          },
-          "close": {
-            "day": 0,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 11,
-            "minute": 30
-          },
-          "close": {
-            "day": 1,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 11,
-            "minute": 30
-          },
-          "close": {
-            "day": 2,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 11,
-            "minute": 30
-          },
-          "close": {
-            "day": 3,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 11,
-            "minute": 30
-          },
-          "close": {
-            "day": 4,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 11,
-            "minute": 30
-          },
-          "close": {
-            "day": 5,
-            "hour": 20,
             "minute": 0
           }
         }
@@ -22062,7 +22264,7 @@
     "rating": 4.5,
     "review_count": 94,
     "category": "bakery",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類",
       "素食蔬食類"
@@ -22165,7 +22367,7 @@
     "rating": 5.0,
     "review_count": 243,
     "category": "bakery",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -22229,9 +22431,9 @@
     "lat": 24.747682299999997,
     "lon": 121.74307929999999,
     "rating": 5.0,
-    "review_count": 175,
+    "review_count": 176,
     "category": "bakery",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -22296,6 +22498,18 @@
             "hour": 21,
             "minute": 0
           }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 9,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 17,
+            "minute": 0
+          }
         }
       ]
     },
@@ -22307,7 +22521,7 @@
     "lat": 24.745400999999998,
     "lon": 121.74884,
     "rating": 3.2,
-    "review_count": 135,
+    "review_count": 136,
     "category": "bakery",
     "price_level": 1,
     "food_groups": [
@@ -22396,10 +22610,10 @@
     "name": "真味家素食烘焙本舖",
     "lat": 24.751871599999998,
     "lon": 121.7471877,
-    "rating": 4.8,
-    "review_count": 215,
+    "rating": 4.9,
+    "review_count": 222,
     "category": "bakery",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類",
       "素食蔬食類"
@@ -22476,9 +22690,9 @@
     "lat": 24.7467926,
     "lon": 121.74998089999998,
     "rating": 4.0,
-    "review_count": 45,
+    "review_count": 46,
     "category": "bakery",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -22553,6 +22767,108 @@
           "close": {
             "day": 5,
             "hour": 21,
+            "minute": 0
+          }
+        }
+      ]
+    },
+    "business_status": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJv5aFVpPkZzQRMpwecYZ31LQ",
+    "name": "傑米爾精緻烘焙屋",
+    "lat": 24.745798,
+    "lon": 121.74191889999999,
+    "rating": 4.5,
+    "review_count": 65,
+    "category": "bakery",
+    "price_level": 1,
+    "food_groups": [
+      "下午茶咖啡廳類"
+    ],
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "hour": 8,
+            "minute": 30
+          },
+          "close": {
+            "day": 0,
+            "hour": 22,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 8,
+            "minute": 30
+          },
+          "close": {
+            "day": 1,
+            "hour": 22,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 8,
+            "minute": 30
+          },
+          "close": {
+            "day": 2,
+            "hour": 22,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 8,
+            "minute": 30
+          },
+          "close": {
+            "day": 3,
+            "hour": 22,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 8,
+            "minute": 30
+          },
+          "close": {
+            "day": 4,
+            "hour": 22,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 8,
+            "minute": 30
+          },
+          "close": {
+            "day": 5,
+            "hour": 22,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 9,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 17,
             "minute": 0
           }
         }
@@ -22644,7 +22960,7 @@
     "lat": 24.752045900000002,
     "lon": 121.74771849999998,
     "rating": 4.8,
-    "review_count": 398,
+    "review_count": 404,
     "category": "dessert_shop",
     "price_level": null,
     "food_groups": [
@@ -22718,11 +23034,11 @@
   },
   {
     "id": "ChIJq9hitgLlZzQRNV736PIZVbM",
-    "name": "未半甜點｜早午餐 ｜ 宜蘭甜點｜宜蘭下午茶｜ 巴斯克蛋糕｜造型戚風｜咖啡｜調酒｜場地出租｜客製化蛋糕",
+    "name": "Opa Dessert",
     "lat": 24.7522859,
     "lon": 121.7513803,
     "rating": 4.8,
-    "review_count": 186,
+    "review_count": 187,
     "category": "dessert_shop",
     "price_level": null,
     "food_groups": [
@@ -22812,7 +23128,7 @@
     "lat": 24.748317999999998,
     "lon": 121.7497818,
     "rating": 4.4,
-    "review_count": 82,
+    "review_count": 85,
     "category": "dessert_shop",
     "price_level": null,
     "food_groups": [
@@ -22829,7 +23145,7 @@
           "close": {
             "day": 0,
             "hour": 22,
-            "minute": 30
+            "minute": 0
           }
         },
         {
@@ -22841,7 +23157,7 @@
           "close": {
             "day": 1,
             "hour": 22,
-            "minute": 30
+            "minute": 0
           }
         },
         {
@@ -22853,7 +23169,7 @@
           "close": {
             "day": 2,
             "hour": 22,
-            "minute": 30
+            "minute": 0
           }
         },
         {
@@ -22865,7 +23181,7 @@
           "close": {
             "day": 3,
             "hour": 22,
-            "minute": 30
+            "minute": 0
           }
         },
         {
@@ -22877,7 +23193,7 @@
           "close": {
             "day": 4,
             "hour": 22,
-            "minute": 30
+            "minute": 0
           }
         },
         {
@@ -22889,7 +23205,7 @@
           "close": {
             "day": 5,
             "hour": 22,
-            "minute": 30
+            "minute": 0
           }
         },
         {
@@ -22901,7 +23217,7 @@
           "close": {
             "day": 6,
             "hour": 22,
-            "minute": 30
+            "minute": 0
           }
         }
       ]
@@ -22914,7 +23230,7 @@
     "lat": 24.748922999999998,
     "lon": 121.7500326,
     "rating": 4.9,
-    "review_count": 127,
+    "review_count": 136,
     "category": "dessert_shop",
     "price_level": null,
     "food_groups": [
@@ -23016,7 +23332,7 @@
     "lat": 24.7487349,
     "lon": 121.75064510000001,
     "rating": 4.7,
-    "review_count": 137,
+    "review_count": 149,
     "category": "dessert_shop",
     "price_level": null,
     "food_groups": [
@@ -23118,7 +23434,7 @@
     "lat": 24.747899399999998,
     "lon": 121.74168219999999,
     "rating": 4.9,
-    "review_count": 47,
+    "review_count": 48,
     "category": "dessert_shop",
     "price_level": null,
     "food_groups": [
@@ -23126,6 +23442,18 @@
     ],
     "regular_opening_hours": {
       "periods": [
+        {
+          "open": {
+            "day": 0,
+            "hour": 11,
+            "minute": 30
+          },
+          "close": {
+            "day": 0,
+            "hour": 13,
+            "minute": 30
+          }
+        },
         {
           "open": {
             "day": 3,
@@ -23308,6 +23636,18 @@
         },
         {
           "open": {
+            "day": 2,
+            "hour": 13,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
             "day": 3,
             "hour": 13,
             "minute": 0
@@ -23444,9 +23784,9 @@
     "lat": 24.744436099999998,
     "lon": 121.7507011,
     "rating": 3.7,
-    "review_count": 53,
+    "review_count": 54,
     "category": "dessert_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -23534,9 +23874,9 @@
     "lat": 24.7480411,
     "lon": 121.7511807,
     "rating": 3.5,
-    "review_count": 60,
+    "review_count": 61,
     "category": "",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -23741,9 +24081,9 @@
     "lat": 24.7488836,
     "lon": 121.7510172,
     "rating": 4.6,
-    "review_count": 95,
+    "review_count": 97,
     "category": "barbecue_restaurant",
-    "price_level": 1,
+    "price_level": 2,
     "food_groups": [
       "熱炒合菜類"
     ],
@@ -23831,9 +24171,9 @@
     "lat": 24.746642599999998,
     "lon": 121.75087829999998,
     "rating": 5.0,
-    "review_count": 19,
+    "review_count": 21,
     "category": "barbecue_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "熱炒合菜類"
     ],
@@ -23859,6 +24199,18 @@
           },
           "close": {
             "day": 2,
+            "hour": 23,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
             "hour": 23,
             "minute": 0
           }
@@ -23908,10 +24260,10 @@
     "name": "滿上仙草茶飲專賣店 宜蘭復興店",
     "lat": 24.7486039,
     "lon": 121.75045329999999,
-    "rating": 4.5,
-    "review_count": 76,
+    "rating": 4.4,
+    "review_count": 81,
     "category": "",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -24011,9 +24363,9 @@
     "lat": 24.7487155,
     "lon": 121.75058589999999,
     "rating": 4.3,
-    "review_count": 162,
+    "review_count": 164,
     "category": "tea_house",
-    "price_level": 1,
+    "price_level": null,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -24115,7 +24467,7 @@
     "rating": 4.1,
     "review_count": 145,
     "category": "tea_house",
-    "price_level": 1,
+    "price_level": null,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -24217,7 +24569,7 @@
     "rating": 4.5,
     "review_count": 111,
     "category": "tea_house",
-    "price_level": 1,
+    "price_level": null,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -24255,18 +24607,6 @@
           },
           "close": {
             "day": 2,
-            "hour": 21,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 10,
-            "minute": 30
-          },
-          "close": {
-            "day": 3,
             "hour": 21,
             "minute": 30
           }
@@ -24317,7 +24657,7 @@
     "lat": 24.7499972,
     "lon": 121.75452039999999,
     "rating": 4.2,
-    "review_count": 142,
+    "review_count": 141,
     "category": "",
     "price_level": 1,
     "food_groups": [
@@ -24413,67 +24753,15 @@
     "food_groups": [
       "下午茶咖啡廳類"
     ],
-    "regular_opening_hours": {
-      "periods": [
-        {
-          "open": {
-            "day": 3,
-            "hour": 14,
-            "minute": 0
-          },
-          "close": {
-            "day": 3,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 14,
-            "minute": 0
-          },
-          "close": {
-            "day": 4,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 14,
-            "minute": 0
-          },
-          "close": {
-            "day": 5,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 14,
-            "minute": 0
-          },
-          "close": {
-            "day": 6,
-            "hour": 20,
-            "minute": 0
-          }
-        }
-      ]
-    },
-    "business_status": "OPERATIONAL"
+    "business_status": "CLOSED_TEMPORARILY"
   },
   {
     "id": "ChIJWTAG_wLlZzQREewLqEp6pes",
-    "name": "鈞本紅茶復興店",
+    "name": "鈞本紅茶復興店 (宜蘭在地品牌）",
     "lat": 24.7489094,
     "lon": 121.74846909999998,
-    "rating": 4.4,
-    "review_count": 19,
+    "rating": 4.7,
+    "review_count": 23,
     "category": "tea_house",
     "price_level": null,
     "food_groups": [
@@ -24574,13 +24862,101 @@
     "name": "茶海 CHA Hi-宜蘭神農店",
     "lat": 24.7486548,
     "lon": 121.7503041,
-    "rating": 4.3,
-    "review_count": 64,
+    "rating": 4.2,
+    "review_count": 91,
     "category": "tea_house",
     "price_level": null,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "hour": 10,
+            "minute": 0
+          },
+          "close": {
+            "day": 0,
+            "hour": 22,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 10,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 22,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 10,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 22,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 10,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 22,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 10,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 22,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 10,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 22,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 10,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 22,
+            "minute": 0
+          }
+        }
+      ]
+    },
     "business_status": "OPERATIONAL"
   },
   {
@@ -24589,9 +24965,9 @@
     "lat": 24.746937,
     "lon": 121.7512758,
     "rating": 5.0,
-    "review_count": 7,
+    "review_count": 8,
     "category": "snack_bar",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "炸物類"
     ],
@@ -24666,10 +25042,10 @@
     "name": "阿嬤の古早味",
     "lat": 24.7450981,
     "lon": 121.7436438,
-    "rating": 3.7,
-    "review_count": 37,
+    "rating": 3.8,
+    "review_count": 42,
     "category": "noodle_shop",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "麵食類"
     ],
@@ -24858,10 +25234,10 @@
     "name": "江 刈包",
     "lat": 24.745210399999998,
     "lon": 121.7488034,
-    "rating": 5.0,
-    "review_count": 5,
+    "rating": 4.6,
+    "review_count": 11,
     "category": "snack_bar",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "炸物類"
     ],
@@ -24870,72 +25246,72 @@
         {
           "open": {
             "day": 0,
-            "hour": 17,
+            "hour": 11,
             "minute": 0
           },
           "close": {
             "day": 0,
-            "hour": 23,
+            "hour": 20,
             "minute": 30
           }
         },
         {
           "open": {
             "day": 1,
-            "hour": 17,
+            "hour": 11,
             "minute": 0
           },
           "close": {
             "day": 1,
-            "hour": 23,
+            "hour": 20,
             "minute": 30
           }
         },
         {
           "open": {
             "day": 2,
-            "hour": 17,
+            "hour": 11,
             "minute": 0
           },
           "close": {
             "day": 2,
-            "hour": 23,
+            "hour": 20,
             "minute": 30
           }
         },
         {
           "open": {
             "day": 3,
-            "hour": 17,
+            "hour": 11,
             "minute": 0
           },
           "close": {
             "day": 3,
-            "hour": 23,
-            "minute": 0
+            "hour": 20,
+            "minute": 30
           }
         },
         {
           "open": {
             "day": 4,
-            "hour": 17,
+            "hour": 11,
             "minute": 0
           },
           "close": {
             "day": 4,
-            "hour": 23,
-            "minute": 0
+            "hour": 20,
+            "minute": 30
           }
         },
         {
           "open": {
             "day": 5,
-            "hour": 17,
+            "hour": 11,
             "minute": 0
           },
           "close": {
             "day": 5,
-            "hour": 23,
+            "hour": 20,
             "minute": 30
           }
         }
@@ -24949,9 +25325,9 @@
     "lat": 24.7458644,
     "lon": 121.7491257,
     "rating": 5.0,
-    "review_count": 51,
+    "review_count": 53,
     "category": "snack_bar",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "炸物類"
     ],
@@ -25039,9 +25415,9 @@
     "lat": 24.7488118,
     "lon": 121.74797880000001,
     "rating": 4.8,
-    "review_count": 131,
+    "review_count": 136,
     "category": "snack_bar",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類",
       "炸物類"
@@ -25141,10 +25517,10 @@
     "name": "小李子現炒",
     "lat": 24.743881899999998,
     "lon": 121.7480063,
-    "rating": 4.0,
-    "review_count": 13,
+    "rating": 4.6,
+    "review_count": 12,
     "category": "snack_bar",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "炸物類"
     ],
@@ -25158,18 +25534,6 @@
           },
           "close": {
             "day": 0,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 1,
             "hour": 20,
             "minute": 0
           }
@@ -25244,9 +25608,9 @@
     "lat": 24.7445541,
     "lon": 121.74894739999999,
     "rating": 5.0,
-    "review_count": 2,
+    "review_count": 16,
     "category": "snack_bar",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "炸物類"
     ],
@@ -25260,7 +25624,7 @@
           },
           "close": {
             "day": 0,
-            "hour": 19,
+            "hour": 20,
             "minute": 0
           }
         },
@@ -25272,7 +25636,7 @@
           },
           "close": {
             "day": 1,
-            "hour": 19,
+            "hour": 20,
             "minute": 0
           }
         },
@@ -25284,7 +25648,7 @@
           },
           "close": {
             "day": 2,
-            "hour": 19,
+            "hour": 20,
             "minute": 0
           }
         },
@@ -25296,7 +25660,7 @@
           },
           "close": {
             "day": 3,
-            "hour": 19,
+            "hour": 20,
             "minute": 0
           }
         },
@@ -25308,7 +25672,7 @@
           },
           "close": {
             "day": 4,
-            "hour": 19,
+            "hour": 20,
             "minute": 0
           }
         },
@@ -25320,7 +25684,7 @@
           },
           "close": {
             "day": 5,
-            "hour": 19,
+            "hour": 20,
             "minute": 0
           }
         },
@@ -25332,7 +25696,7 @@
           },
           "close": {
             "day": 6,
-            "hour": 19,
+            "hour": 20,
             "minute": 0
           }
         }
@@ -25346,7 +25710,7 @@
     "lat": 24.747087999999998,
     "lon": 121.7496099,
     "rating": 5.0,
-    "review_count": 7,
+    "review_count": 10,
     "category": "snack_bar",
     "price_level": null,
     "food_groups": [
@@ -25448,7 +25812,7 @@
     "lat": 24.7540596,
     "lon": 121.75053489999999,
     "rating": 4.8,
-    "review_count": 8328,
+    "review_count": 8455,
     "category": "hot_pot_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -25550,7 +25914,7 @@
     "lat": 24.751994,
     "lon": 121.747834,
     "rating": 4.5,
-    "review_count": 452,
+    "review_count": 454,
     "category": "hot_pot_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -25660,11 +26024,11 @@
   },
   {
     "id": "ChIJxYu5NUDlZzQRg-xS_HFsx7g",
-    "name": "石二鍋 宜蘭家",
+    "name": "12 Hot Pot Yilan Prosperity Plaza Branch",
     "lat": 24.7541533,
     "lon": 121.75061889999999,
-    "rating": 4.5,
-    "review_count": 1369,
+    "rating": 4.6,
+    "review_count": 1631,
     "category": "hot_pot_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -25766,9 +26130,9 @@
     "lat": 24.7493318,
     "lon": 121.74257509999998,
     "rating": 4.5,
-    "review_count": 201,
+    "review_count": 206,
     "category": "hot_pot_restaurant",
-    "price_level": 2,
+    "price_level": 1,
     "food_groups": [
       "火鍋類"
     ],
@@ -25904,9 +26268,9 @@
     "lat": 24.7479142,
     "lon": 121.74993699999999,
     "rating": 4.3,
-    "review_count": 302,
+    "review_count": 305,
     "category": "chinese_noodle_restaurant",
-    "price_level": 2,
+    "price_level": 1,
     "food_groups": [
       "火鍋類",
       "麵食類"
@@ -26067,7 +26431,7 @@
     "lat": 24.7491422,
     "lon": 121.74774989999999,
     "rating": 3.5,
-    "review_count": 313,
+    "review_count": 315,
     "category": "hot_pot_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -26229,9 +26593,9 @@
     "lat": 24.749462599999998,
     "lon": 121.75084070000001,
     "rating": 4.8,
-    "review_count": 114,
+    "review_count": 119,
     "category": "hot_pot_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "火鍋類"
     ],
@@ -26309,7 +26673,7 @@
     "rating": 4.7,
     "review_count": 18,
     "category": "hot_pot_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "火鍋類"
     ],
@@ -26398,10 +26762,10 @@
     "name": "霂川鍋物*宜蘭在地特色火鍋 最晚收客23:00",
     "lat": 24.7464303,
     "lon": 121.7489917,
-    "rating": 4.7,
-    "review_count": 63,
+    "rating": 4.6,
+    "review_count": 86,
     "category": "hot_pot_restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "火鍋類"
     ],
@@ -26501,7 +26865,7 @@
     "lat": 24.7468956,
     "lon": 121.7373221,
     "rating": 4.3,
-    "review_count": 350,
+    "review_count": 353,
     "category": "taiwanese_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -26658,28 +27022,116 @@
     "business_status": "OPERATIONAL"
   },
   {
-    "id": "ChIJ0T3AT-DlZzQRnYMMjSpNz3w",
-    "name": "花 靜 食",
-    "lat": 24.744050899999998,
-    "lon": 121.751543,
-    "rating": 5.0,
-    "review_count": 658,
-    "category": "restaurant",
-    "price_level": null,
+    "id": "ChIJ29PtKOjkZzQREldjsFaOkXE",
+    "name": "宜蘭香蒜肉羹",
+    "lat": 24.752786399999998,
+    "lon": 121.7493248,
+    "rating": 4.5,
+    "review_count": 200,
+    "category": "taiwanese_restaurant",
+    "price_level": 1,
     "food_groups": [
-      "其他"
+      "便當類"
     ],
-    "business_status": "CLOSED_TEMPORARILY"
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "hour": 9,
+            "minute": 0
+          },
+          "close": {
+            "day": 0,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 9,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 9,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 9,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 9,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 9,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 20,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 9,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 20,
+            "minute": 0
+          }
+        }
+      ]
+    },
+    "business_status": "OPERATIONAL"
   },
   {
     "id": "ChIJ5fOHxOnkZzQR1V8_4nEMgPk",
     "name": "阿亮小吃部",
     "lat": 24.7485336,
     "lon": 121.74978759999999,
-    "rating": 4.2,
-    "review_count": 83,
+    "rating": 4.1,
+    "review_count": 84,
     "category": "taiwanese_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "便當類"
     ],
@@ -26693,8 +27145,20 @@
           },
           "close": {
             "day": 0,
-            "hour": 21,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 0,
+            "hour": 16,
             "minute": 30
+          },
+          "close": {
+            "day": 0,
+            "hour": 21,
+            "minute": 0
           }
         },
         {
@@ -26705,8 +27169,20 @@
           },
           "close": {
             "day": 1,
-            "hour": 21,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 16,
             "minute": 30
+          },
+          "close": {
+            "day": 1,
+            "hour": 21,
+            "minute": 0
           }
         },
         {
@@ -26717,8 +27193,20 @@
           },
           "close": {
             "day": 2,
-            "hour": 21,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 16,
             "minute": 30
+          },
+          "close": {
+            "day": 2,
+            "hour": 21,
+            "minute": 0
           }
         },
         {
@@ -26729,8 +27217,20 @@
           },
           "close": {
             "day": 3,
-            "hour": 21,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 16,
             "minute": 30
+          },
+          "close": {
+            "day": 3,
+            "hour": 21,
+            "minute": 0
           }
         },
         {
@@ -26741,8 +27241,20 @@
           },
           "close": {
             "day": 4,
-            "hour": 21,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 16,
             "minute": 30
+          },
+          "close": {
+            "day": 4,
+            "hour": 21,
+            "minute": 0
           }
         },
         {
@@ -26753,8 +27265,20 @@
           },
           "close": {
             "day": 5,
-            "hour": 21,
+            "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 16,
             "minute": 30
+          },
+          "close": {
+            "day": 5,
+            "hour": 21,
+            "minute": 0
           }
         }
       ]
@@ -26777,12 +27301,91 @@
     "business_status": "CLOSED_TEMPORARILY"
   },
   {
+    "id": "ChIJr7zTss7lZzQRb06y44x_27s",
+    "name": "初暖｜鍋燒麵",
+    "lat": 24.744810100000002,
+    "lon": 121.74889389999998,
+    "rating": 4.6,
+    "review_count": 132,
+    "category": "taiwanese_restaurant",
+    "price_level": 1,
+    "food_groups": [
+      "便當類",
+      "火鍋類"
+    ],
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 0,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 0,
+            "hour": 19,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 19,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 19,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 19,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 19,
+            "minute": 0
+          }
+        }
+      ]
+    },
+    "business_status": "OPERATIONAL"
+  },
+  {
     "id": "ChIJ_5tzwOfkZzQRzrsUWZzXNns",
     "name": "四川燃麵 瓜仔雞麵",
     "lat": 24.746712,
     "lon": 121.75523430000001,
     "rating": 4.5,
-    "review_count": 396,
+    "review_count": 399,
     "category": "chinese_noodle_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -26872,9 +27475,9 @@
     "lat": 24.7487842,
     "lon": 121.74821310000002,
     "rating": 4.0,
-    "review_count": 253,
+    "review_count": 258,
     "category": "chinese_noodle_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "麵食類"
     ],
@@ -27034,9 +27637,9 @@
     "lat": 24.748918099999997,
     "lon": 121.74879700000001,
     "rating": 4.5,
-    "review_count": 186,
+    "review_count": 192,
     "category": "chinese_noodle_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "麵食類"
     ],
@@ -27285,10 +27888,10 @@
     "name": "阿寶主廚牛肉麵-宜蘭美食推薦/宜蘭牛肉麵推薦/宜蘭大滷麵推薦/宜蘭小吃推薦",
     "lat": 24.745973799999998,
     "lon": 121.75503320000001,
-    "rating": 4.0,
-    "review_count": 142,
+    "rating": 4.1,
+    "review_count": 145,
     "category": "chinese_noodle_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "麵食類"
     ],
@@ -27550,9 +28153,9 @@
     "lat": 24.744758299999997,
     "lon": 121.75039679999998,
     "rating": 4.2,
-    "review_count": 110,
+    "review_count": 111,
     "category": "chinese_noodle_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "麵食類"
     ],
@@ -27688,9 +28291,9 @@
     "lat": 24.7516537,
     "lon": 121.73865839999999,
     "rating": 4.7,
-    "review_count": 43,
+    "review_count": 45,
     "category": "chinese_noodle_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "麵食類"
     ],
@@ -27778,7 +28381,7 @@
     "lat": 24.753735000000002,
     "lon": 121.74292299999999,
     "rating": 4.3,
-    "review_count": 1034,
+    "review_count": 1094,
     "category": "noodle_shop",
     "price_level": 1,
     "food_groups": [
@@ -27868,9 +28471,9 @@
     "lat": 24.749849599999997,
     "lon": 121.7450964,
     "rating": 4.4,
-    "review_count": 244,
+    "review_count": 251,
     "category": "noodle_shop",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "炸物類",
       "麵食類"
@@ -27934,10 +28537,10 @@
     "name": "稻村-炒飯/烏龍麵專賣店",
     "lat": 24.7488432,
     "lon": 121.75180689999998,
-    "rating": 4.1,
-    "review_count": 123,
+    "rating": 4.2,
+    "review_count": 126,
     "category": "noodle_shop",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "麵食類"
     ],
@@ -28073,7 +28676,7 @@
     "lat": 24.7528847,
     "lon": 121.7407114,
     "rating": 4.2,
-    "review_count": 134,
+    "review_count": 136,
     "category": "restaurant",
     "price_level": 1,
     "food_groups": [
@@ -28163,7 +28766,7 @@
     "lat": 24.7541036,
     "lon": 121.74403749999998,
     "rating": 4.2,
-    "review_count": 253,
+    "review_count": 252,
     "category": "noodle_shop",
     "price_level": 1,
     "food_groups": [
@@ -28415,9 +29018,9 @@
     "lat": 24.7458439,
     "lon": 121.7530005,
     "rating": 4.1,
-    "review_count": 390,
+    "review_count": 391,
     "category": "noodle_shop",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "麵食類"
     ],
@@ -28601,7 +29204,7 @@
     "lat": 24.749370499999998,
     "lon": 121.75066769999998,
     "rating": 4.1,
-    "review_count": 199,
+    "review_count": 201,
     "category": "noodle_shop",
     "price_level": 1,
     "food_groups": [
@@ -28703,9 +29306,9 @@
     "lat": 24.742303999999997,
     "lon": 121.7470285,
     "rating": 4.7,
-    "review_count": 144,
+    "review_count": 145,
     "category": "noodle_shop",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "麵食類"
     ],
@@ -28725,6 +29328,18 @@
         },
         {
           "open": {
+            "day": 1,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 21,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
             "day": 2,
             "hour": 11,
             "minute": 0
@@ -28732,6 +29347,18 @@
           "close": {
             "day": 2,
             "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 21,
             "minute": 0
           }
         },
@@ -28749,6 +29376,18 @@
         },
         {
           "open": {
+            "day": 3,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 21,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
             "day": 4,
             "hour": 11,
             "minute": 0
@@ -28756,6 +29395,18 @@
           "close": {
             "day": 4,
             "hour": 14,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 21,
             "minute": 0
           }
         },
@@ -28773,13 +29424,25 @@
         },
         {
           "open": {
+            "day": 5,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 21,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
             "day": 6,
             "hour": 11,
             "minute": 0
           },
           "close": {
             "day": 6,
-            "hour": 14,
+            "hour": 21,
             "minute": 0
           }
         }
@@ -28793,9 +29456,9 @@
     "lat": 24.7541533,
     "lon": 121.75061889999999,
     "rating": 3.1,
-    "review_count": 233,
+    "review_count": 236,
     "category": "noodle_shop",
-    "price_level": 2,
+    "price_level": 1,
     "food_groups": [
       "麵食類"
     ],
@@ -28897,7 +29560,7 @@
     "rating": 4.3,
     "review_count": 96,
     "category": "noodle_shop",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "麵食類"
     ],
@@ -29057,9 +29720,9 @@
     "lat": 24.7473462,
     "lon": 121.75254069999998,
     "rating": 4.3,
-    "review_count": 215,
+    "review_count": 219,
     "category": "brunch_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -29159,9 +29822,9 @@
     "lat": 24.7514771,
     "lon": 121.738434,
     "rating": 4.9,
-    "review_count": 1110,
+    "review_count": 1108,
     "category": "brunch_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -29248,10 +29911,10 @@
     "name": "麥味登 宜蘭民族店",
     "lat": 24.752014499999998,
     "lon": 121.7477072,
-    "rating": 4.8,
-    "review_count": 197,
+    "rating": 4.7,
+    "review_count": 203,
     "category": "brunch_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -29265,7 +29928,7 @@
           },
           "close": {
             "day": 0,
-            "hour": 16,
+            "hour": 15,
             "minute": 30
           }
         },
@@ -29277,7 +29940,7 @@
           },
           "close": {
             "day": 1,
-            "hour": 16,
+            "hour": 15,
             "minute": 30
           }
         },
@@ -29289,7 +29952,7 @@
           },
           "close": {
             "day": 2,
-            "hour": 16,
+            "hour": 15,
             "minute": 30
           }
         },
@@ -29301,7 +29964,7 @@
           },
           "close": {
             "day": 4,
-            "hour": 16,
+            "hour": 15,
             "minute": 30
           }
         },
@@ -29313,7 +29976,7 @@
           },
           "close": {
             "day": 5,
-            "hour": 16,
+            "hour": 15,
             "minute": 30
           }
         },
@@ -29325,7 +29988,7 @@
           },
           "close": {
             "day": 6,
-            "hour": 16,
+            "hour": 15,
             "minute": 30
           }
         }
@@ -29339,9 +30002,9 @@
     "lat": 24.7471908,
     "lon": 121.74860509999999,
     "rating": 4.5,
-    "review_count": 217,
+    "review_count": 221,
     "category": "brunch_restaurant",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "下午茶咖啡廳類"
     ],
@@ -29367,6 +30030,96 @@
           },
           "close": {
             "day": 1,
+            "hour": 13,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 6,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 13,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 6,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 13,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 6,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 13,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 6,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 13,
+            "minute": 0
+          }
+        }
+      ]
+    },
+    "business_status": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJy4rJslzlZzQRbyqFvrFVo18",
+    "name": "海豚早午餐",
+    "lat": 24.7495948,
+    "lon": 121.7403674,
+    "rating": 4.5,
+    "review_count": 69,
+    "category": "brunch_restaurant",
+    "price_level": 1,
+    "food_groups": [
+      "下午茶咖啡廳類"
+    ],
+    "regular_opening_hours": {
+      "periods": [
+        {
+          "open": {
+            "day": 1,
+            "hour": 6,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 13,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 6,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
             "hour": 13,
             "minute": 0
           }
@@ -29429,7 +30182,7 @@
     "lat": 24.7536852,
     "lon": 121.74872389999997,
     "rating": 4.4,
-    "review_count": 1415,
+    "review_count": 1423,
     "category": "vietnamese_restaurant",
     "price_level": 2,
     "food_groups": [
@@ -29568,7 +30321,7 @@
     "lat": 24.7540596,
     "lon": 121.75053489999999,
     "rating": 4.9,
-    "review_count": 15516,
+    "review_count": 16004,
     "category": "steak_house",
     "price_level": 2,
     "food_groups": [
@@ -29754,7 +30507,7 @@
     "lat": 24.7505921,
     "lon": 121.73759880000001,
     "rating": 4.1,
-    "review_count": 695,
+    "review_count": 698,
     "category": "steak_house",
     "price_level": 1,
     "food_groups": [
@@ -29916,9 +30669,9 @@
     "lat": 24.747312299999997,
     "lon": 121.7494773,
     "rating": 4.6,
-    "review_count": 556,
+    "review_count": 558,
     "category": "steak_house",
-    "price_level": null,
+    "price_level": 1,
     "food_groups": [
       "牛排館類"
     ],
@@ -29939,156 +30692,156 @@
         {
           "open": {
             "day": 0,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 0,
-            "hour": 22,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 1,
-            "hour": 13,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 1,
-            "hour": 22,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 2,
-            "hour": 13,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 2,
-            "hour": 22,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 3,
-            "hour": 13,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 3,
-            "hour": 22,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 4,
-            "hour": 13,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 5,
-            "hour": 10,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 5,
-            "hour": 13,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 5,
-            "hour": 22,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 6,
-            "hour": 13,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 6,
             "hour": 17,
             "minute": 0
           },
           "close": {
             "day": 0,
-            "hour": 10,
+            "hour": 22,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 13,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 1,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 1,
+            "hour": 22,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 13,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 2,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 2,
+            "hour": 22,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 13,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 3,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 3,
+            "hour": 22,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 13,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 4,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 4,
+            "hour": 22,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 13,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 5,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 5,
+            "hour": 22,
+            "minute": 30
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 11,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 13,
+            "minute": 0
+          }
+        },
+        {
+          "open": {
+            "day": 6,
+            "hour": 17,
+            "minute": 0
+          },
+          "close": {
+            "day": 6,
+            "hour": 22,
             "minute": 30
           }
         }
@@ -30102,9 +30855,9 @@
     "lat": 24.749223999999998,
     "lon": 121.7474941,
     "rating": 4.3,
-    "review_count": 555,
+    "review_count": 558,
     "category": "steak_house",
-    "price_level": 2,
+    "price_level": 1,
     "food_groups": [
       "牛排館類"
     ],
@@ -30264,9 +31017,9 @@
     "lat": 24.7540596,
     "lon": 121.75053489999999,
     "rating": 3.5,
-    "review_count": 443,
+    "review_count": 452,
     "category": "steak_house",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "牛排館類"
     ],
@@ -30366,7 +31119,7 @@
     "lat": 24.7482144,
     "lon": 121.743022,
     "rating": 4.4,
-    "review_count": 345,
+    "review_count": 348,
     "category": "steak_house",
     "price_level": 2,
     "food_groups": [
@@ -30528,9 +31281,9 @@
     "lat": 24.7463347,
     "lon": 121.74929789999999,
     "rating": 4.5,
-    "review_count": 301,
+    "review_count": 302,
     "category": "restaurant",
-    "price_level": null,
+    "price_level": 2,
     "food_groups": [
       "牛排館類"
     ],
@@ -30714,7 +31467,7 @@
     "lat": 24.7470717,
     "lon": 121.74932969999999,
     "rating": 4.3,
-    "review_count": 361,
+    "review_count": 363,
     "category": "vegetarian_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -30900,7 +31653,7 @@
     "lat": 24.7518443,
     "lon": 121.74691399999999,
     "rating": 4.5,
-    "review_count": 229,
+    "review_count": 230,
     "category": "vegetarian_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -31062,7 +31815,7 @@
     "lat": 24.746712199999997,
     "lon": 121.75523419999999,
     "rating": 4.6,
-    "review_count": 175,
+    "review_count": 176,
     "category": "vegetarian_restaurant",
     "price_level": 1,
     "food_groups": [
@@ -31146,573 +31899,6 @@
       ]
     },
     "business_status": "OPERATIONAL"
-  },
-  {
-    "id": "ChIJVVVVVdDkZzQR1-52LK2t56k",
-    "name": "Lian Xin Su Shi Can Fang",
-    "lat": 24.7462949,
-    "lon": 121.75395560000001,
-    "rating": 4.7,
-    "review_count": 308,
-    "category": "vegetarian_restaurant",
-    "price_level": 2,
-    "food_groups": [
-      "素食蔬食類"
-    ],
-    "regular_opening_hours": {
-      "periods": [
-        {
-          "open": {
-            "day": 0,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 0,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 1,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 1,
-            "hour": 19,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 2,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 2,
-            "hour": 19,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 3,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 3,
-            "hour": 19,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 4,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 4,
-            "hour": 19,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 5,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 5,
-            "hour": 19,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 6,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 6,
-            "hour": 19,
-            "minute": 30
-          }
-        }
-      ]
-    },
-    "business_status": "OPERATIONAL"
-  },
-  {
-    "id": "ChIJC4SuM-jkZzQR8Yb4foLjVW0",
-    "name": "心裡有素",
-    "lat": 24.746557799999998,
-    "lon": 121.75168830000001,
-    "rating": 4.5,
-    "review_count": 166,
-    "category": "vegetarian_restaurant",
-    "price_level": 1,
-    "food_groups": [
-      "素食蔬食類"
-    ],
-    "regular_opening_hours": {
-      "periods": [
-        {
-          "open": {
-            "day": 0,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 0,
-            "hour": 14,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 0,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 0,
-            "hour": 20,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 1,
-            "hour": 14,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 1,
-            "hour": 20,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 3,
-            "hour": 14,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 3,
-            "hour": 20,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 4,
-            "hour": 14,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 4,
-            "hour": 20,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 5,
-            "hour": 14,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 5,
-            "hour": 20,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 6,
-            "hour": 14,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 16,
-            "minute": 30
-          },
-          "close": {
-            "day": 6,
-            "hour": 20,
-            "minute": 30
-          }
-        }
-      ]
-    },
-    "business_status": "OPERATIONAL"
-  },
-  {
-    "id": "ChIJxaRn7tDkZzQRf2idlDQhhDM",
-    "name": "芯田樹願×《蔬食中西式早午餐》",
-    "lat": 24.749859,
-    "lon": 121.74324499999999,
-    "rating": 4.6,
-    "review_count": 386,
-    "category": "vegetarian_restaurant",
-    "price_level": 1,
-    "food_groups": [
-      "下午茶咖啡廳類",
-      "素食蔬食類"
-    ],
-    "regular_opening_hours": {
-      "periods": [
-        {
-          "open": {
-            "day": 0,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 0,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 11,
-            "minute": 0
-          },
-          "close": {
-            "day": 6,
-            "hour": 13,
-            "minute": 30
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 6,
-            "hour": 20,
-            "minute": 0
-          }
-        }
-      ]
-    },
-    "business_status": "OPERATIONAL"
-  },
-  {
-    "id": "ChIJOZ5jGe_kZzQRzjv6SFOm5E0",
-    "name": "素人食堂",
-    "lat": 24.7420977,
-    "lon": 121.75124330000001,
-    "rating": 4.4,
-    "review_count": 328,
-    "category": "vegetarian_restaurant",
-    "price_level": 2,
-    "food_groups": [
-      "素食蔬食類"
-    ],
-    "regular_opening_hours": {
-      "periods": [
-        {
-          "open": {
-            "day": 1,
-            "hour": 11,
-            "minute": 30
-          },
-          "close": {
-            "day": 1,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 1,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 1,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 11,
-            "minute": 30
-          },
-          "close": {
-            "day": 2,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 2,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 2,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 11,
-            "minute": 30
-          },
-          "close": {
-            "day": 3,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 3,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 3,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 11,
-            "minute": 30
-          },
-          "close": {
-            "day": 4,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 4,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 4,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 11,
-            "minute": 30
-          },
-          "close": {
-            "day": 5,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 5,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 5,
-            "hour": 20,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 11,
-            "minute": 30
-          },
-          "close": {
-            "day": 6,
-            "hour": 14,
-            "minute": 0
-          }
-        },
-        {
-          "open": {
-            "day": 6,
-            "hour": 17,
-            "minute": 0
-          },
-          "close": {
-            "day": 6,
-            "hour": 20,
-            "minute": 0
-          }
-        }
-      ]
-    },
-    "business_status": "OPERATIONAL"
-  },
-  {
-    "id": "ChIJsU9TTOvkZzQRwcG7MlX2kFE",
-    "name": "眾卿回巢有機生活 (前香聚，目前準備中⏸️）",
-    "lat": 24.7493628,
-    "lon": 121.74814590000001,
-    "rating": 4.4,
-    "review_count": 382,
-    "category": "vegetarian_restaurant",
-    "price_level": 2,
-    "food_groups": [
-      "素食蔬食類"
-    ],
-    "business_status": "CLOSED_TEMPORARILY"
   },
   {
     "id": "ChIJ8_LTgunkZzRr-w6QFA_oqeQ",
@@ -32141,5 +32327,47 @@
         }
       ]
     }
+  },
+  {
+    "id": "ChIJo6H6cOrkZzQRHTssFoQeFtI",
+    "name": "嗅香臭臭鍋",
+    "lat": 24.74914,
+    "lon": 121.74772,
+    "rating": 4.2,
+    "review_count": 340,
+    "category": "hot_pot_restaurant",
+    "price_level": 1,
+    "food_groups": [
+      "火鍋類"
+    ],
+    "business_status": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJ52mTzqDlZzQRzorch4P1pHE",
+    "name": "又見麵拉麵",
+    "lat": 24.74875,
+    "lon": 121.74935,
+    "rating": 4.8,
+    "review_count": 51,
+    "category": "ramen_restaurant",
+    "price_level": 1,
+    "food_groups": [
+      "麵食類"
+    ],
+    "business_status": "OPERATIONAL"
+  },
+  {
+    "id": "ChIJRe8AcurkZzQRVqF_rTERoAo",
+    "name": "紅牛鐵板燒",
+    "lat": 24.74913,
+    "lon": 121.74782,
+    "rating": 4.3,
+    "review_count": 133,
+    "category": "japanese_restaurant",
+    "price_level": 1,
+    "food_groups": [
+      "日式料理類"
+    ],
+    "business_status": "OPERATIONAL"
   }
 ]

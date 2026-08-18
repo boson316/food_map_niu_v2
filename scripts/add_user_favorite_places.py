@@ -113,6 +113,42 @@ NEW_PLACES: list[dict] = [
             ]
         },
     },
+    {
+        "id": "ChIJo6H6cOrkZzQRHTssFoQeFtI",
+        "name": "嗅香臭臭鍋",
+        "lat": 24.74914,
+        "lon": 121.74772,
+        "rating": 4.2,
+        "review_count": 340,
+        "category": "hot_pot_restaurant",
+        "price_level": 1,
+        "food_groups": ["火鍋類"],
+        "business_status": "OPERATIONAL",
+    },
+    {
+        "id": "ChIJ52mTzqDlZzQRzorch4P1pHE",
+        "name": "又見麵拉麵",
+        "lat": 24.74875,
+        "lon": 121.74935,
+        "rating": 4.8,
+        "review_count": 51,
+        "category": "ramen_restaurant",
+        "price_level": 1,
+        "food_groups": ["麵食類"],
+        "business_status": "OPERATIONAL",
+    },
+    {
+        "id": "ChIJRe8AcurkZzQRVqF_rTERoAo",
+        "name": "紅牛鐵板燒",
+        "lat": 24.74913,
+        "lon": 121.74782,
+        "rating": 4.3,
+        "review_count": 133,
+        "category": "japanese_restaurant",
+        "price_level": 1,
+        "food_groups": ["日式料理類"],
+        "business_status": "OPERATIONAL",
+    },
 ]
 
 
