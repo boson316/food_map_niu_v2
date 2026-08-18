@@ -103,6 +103,16 @@ streamlit run src/streamlit_app.py
 
 快取檔存在時 Streamlit 會自動載入 `data/places_cache.json`（已列入 `.gitignore`）。
 
+**這個 repo 的 Git push 寫法**
+
+這個 repo 固定用 `boson316` 的 SSH host alias；不要用裸 `git@github.com`，某些網路環境會卡在 SSH 22 port。
+
+```powershell
+cd c:\Users\User\Documents\code\校園美食地圖_v2
+git remote set-url origin git@github-boson316:boson316/food_map_niu_v2.git
+git push origin main
+```
+
 效能路徑：bbox 粗篩 → haversine → `heapq` top-k。
 
 ---

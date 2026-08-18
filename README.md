@@ -128,6 +128,16 @@ streamlit run src/streamlit_app.py
 
 `data/places_cache.json` 存在時，Streamlit 側欄會自動帶入該路徑（`.gitignore` 已排除，勿 commit 金鑰或快取）。
 
+**Git push for this repo**
+
+Use the `boson316` SSH host alias for this repository; avoid bare `git@github.com` because some networks block SSH port 22.
+
+```powershell
+cd c:\Users\User\Documents\code\校園美食地圖_v2
+git remote set-url origin git@github-boson316:boson316/food_map_niu_v2.git
+git push origin main
+```
+
 **程式內直接接 live API（較少建議）**
 
 ```python
