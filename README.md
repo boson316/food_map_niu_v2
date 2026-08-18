@@ -20,11 +20,13 @@
 
 ### v2 features
 
-- Default search radius **500 m (0.5 km)**, default list **300** places; fetch pool **1 km** max (enhanced cache: **300** places).
+- Default search radius **500 m (0.5 km)**, default list **300** places; fetch pool **1 km** max (enhanced cache: **306** places).
 - **Food groups**: 15 categories (braised snacks, café/dessert, hot pot, steak, noodles, Japanese, Korean, vegetarian, dim sum, Italian/pizza, buffet, stir-fry, BBQ/Cantonese, bento, fried) + **其他**; multi-select; wheel auto-includes「其他」when filtering.
 - **Budget**: `price_level 1` filter + optional include unknown price.
 - **Hours**: map shows open/closed/unknown; **wheel excludes closed** (unknown kept); wheel pool **Top 40** (main meals, composite score).
-- Spec: [docs/v2-規格.md](docs/v2-規格.md) · Summary: [docs/v2-上線與變更總結.md](docs/v2-上線與變更總結.md)
+- **Wheel priority pins**: **14** restaurants in `data/user_favorites.json` (personal picks near NIU; prioritized when open).
+- Offline cache: **306** places (`data/places_cache.public.json` for Streamlit Cloud).
+- Spec: [docs/v2-規格.md](docs/v2-規格.md) · Summary: [docs/v2-上線與變更總結.md](docs/v2-上線與變更總結.md) · **Changelog**: [docs/CHANGELOG.md](docs/CHANGELOG.md)
 
 ### Core features (from v1)
 
