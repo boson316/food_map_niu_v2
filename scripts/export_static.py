@@ -49,6 +49,37 @@ from foodmap.scoring import (  # noqa: E402
 )
 from foodmap.service import build_maps_url, format_avg_spend  # noqa: E402
 
+# School-specific defaults (the only part that differs between campus repos).
+SCHOOL = {
+    "school": "宜大",
+    "title": "國立宜蘭大學 校園美食地圖",
+    "campus_name": "宜大校本部",
+    "lat": 24.7464,
+    "lon": 121.7457,
+    "radius": 0.5,
+    "max_radius": 5.0,
+    "tiles": "carto",
+    "counter_namespace": "food-map-niu-v2",
+    "repo_url": "https://github.com/boson316/food_map_niu_v2",
+}
+
+TILES = {
+    "carto": {
+        "url": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+        "subdomains": "abcd",
+        "max_zoom": 20,
+        "attribution": '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> '
+        '&copy; <a href="https://carto.com/attributions">CARTO</a>',
+    },
+    # 國土測繪 EMAP5：台灣地名為中文（Carto 在鄉鎮多為拼音）
+    "nlsc": {
+        "url": "https://wmts.nlsc.gov.tw/wmts/EMAP5/default/GoogleMapsCompatible/{z}/{y}/{x}",
+        "subdomains": "",
+        "max_zoom": 19,
+        "attribution": '&copy; <a href="https://maps.nlsc.gov.tw/">內政部國土測繪中心</a>',
+    },
+}
+
 PRIOR_STRENGTH = 8.0  # FoodMapService default
 DECAY_KM = 0.6  # FoodMapService default
 WHEEL_TOP_N = 40  # streamlit_app._WHEEL_TOP_N
@@ -118,6 +149,8 @@ def build_config(args: argparse.Namespace, *, pinned_ids: list[str]) -> dict[str
         "campus_name": args.campus_name,
         "center": [args.lat, args.lon],
         "default_radius_km": args.radius,
+        "max_radius_km": args.max_radius,
+        "tiles": TILES[args.tiles],
         "decay_km": DECAY_KM,
         "wheel_top_n": WHEEL_TOP_N,
         "food_group_sidebar": [[label, list(groups)] for label, groups in FOOD_GROUP_SIDEBAR_GROUPS],
@@ -159,18 +192,20 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--data", default=None, help="restaurant JSON (default: data/places_cache*.json)")
     p.add_argument("--out", default=str(_ROOT / "web" / "data"))
-    p.add_argument("--school", default=env("FOODMAP_SCHOOL", "宜大"))
-    p.add_argument("--title", default=env("FOODMAP_TITLE", "國立宜蘭大學 校園美食地圖"))
-    p.add_argument("--campus-name", default=env("FOODMAP_CAMPUS_NAME", "宜大校本部"))
-    p.add_argument("--lat", type=float, default=float(env("CAMPUS_LAT", "24.7464")))
-    p.add_argument("--lon", type=float, default=float(env("CAMPUS_LON", "121.7457")))
-    p.add_argument("--radius", type=float, default=0.5, help="default search radius (km)")
+    p.add_argument("--school", default=env("FOODMAP_SCHOOL", SCHOOL["school"]))
+    p.add_argument("--title", default=env("FOODMAP_TITLE", SCHOOL["title"]))
+    p.add_argument("--campus-name", default=env("FOODMAP_CAMPUS_NAME", SCHOOL["campus_name"]))
+    p.add_argument("--lat", type=float, default=float(env("CAMPUS_LAT", SCHOOL["lat"])))
+    p.add_argument("--lon", type=float, default=float(env("CAMPUS_LON", SCHOOL["lon"])))
+    p.add_argument("--radius", type=float, default=SCHOOL["radius"], help="default search radius (km)")
+    p.add_argument("--max-radius", type=float, default=SCHOOL["max_radius"], help="radius slider max (km)")
+    p.add_argument("--tiles", choices=sorted(TILES), default=SCHOOL["tiles"], help="basemap")
     p.add_argument(
         "--counter-namespace",
-        default=env("VISIT_COUNTER_NAMESPACE", "food-map-niu-v2"),
+        default=env("VISIT_COUNTER_NAMESPACE", SCHOOL["counter_namespace"]),
         help="counterapi.dev namespace for the footer visit counter ('' disables)",
     )
-    p.add_argument("--repo-url", default=env("FOODMAP_REPO_URL", "https://github.com/boson316/food_map_niu_v2"))
+    p.add_argument("--repo-url", default=env("FOODMAP_REPO_URL", SCHOOL["repo_url"]))
     return p.parse_args(argv)
 
 
