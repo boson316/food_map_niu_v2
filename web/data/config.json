@@ -1,0 +1,78 @@
+{
+  "school": "宜大",
+  "title": "國立宜蘭大學 校園美食地圖",
+  "campus_name": "宜大校本部",
+  "center": [
+    24.7464,
+    121.7457
+  ],
+  "default_radius_km": 0.5,
+  "decay_km": 0.6,
+  "wheel_top_n": 40,
+  "food_group_sidebar": [
+    [
+      "台式小吃",
+      [
+        "滷味類",
+        "炸物類",
+        "便當類",
+        "點心包子類"
+      ]
+    ],
+    [
+      "正餐料理",
+      [
+        "火鍋類",
+        "牛排館類",
+        "麵食類",
+        "日式料理類",
+        "韓式類",
+        "熱炒合菜類",
+        "燒腊港式類",
+        "義式披薩類",
+        "百匯自助餐類"
+      ]
+    ],
+    [
+      "輕食飲品",
+      [
+        "下午茶咖啡廳類",
+        "素食蔬食類"
+      ]
+    ]
+  ],
+  "food_group_other": "其他",
+  "wheel_excluded_groups": [
+    "下午茶咖啡廳類",
+    "其他"
+  ],
+  "wheel_excluded_name_keywords": [
+    "自助冰",
+    "剉冰",
+    "刨冰",
+    "雪花冰",
+    "燒仙草",
+    "仙草冰",
+    "豆花",
+    "冰淇淋"
+  ],
+  "wheel_pinned_ids": [
+    "ChIJ8_LTgunkZzRr-w6QFA_oqeQ",
+    "ChIJK0K7CenkZzTSkSZ5COxxV-Q",
+    "ChIJb05af7LlZzSx0ZNFYwc8fuQ",
+    "ChIJ1Q9EsVPlZzTSmgm6wnKi4uQ",
+    "ChIJWUfeznXlZzQRflS9FSJgE5o",
+    "ChIJo6H6cOrkZzQRHTssFoQeFtI",
+    "ChIJ52mTzqDlZzQRzorch4P1pHE",
+    "ChIJnRXkFwDlZzQRdzmdc6Di_Iw",
+    "ChIJRe8AcurkZzQRVqF_rTERoAo",
+    "ChIJ80bx36blZzQRk7rtOsh7wRU",
+    "ChIJTbPOwOnkZzQRYdTi3sx-5WU",
+    "ChIJO845YcLkZzQRvKehzTBY1qo",
+    "ChIJMcFfhOzkZzQRFwnAasMNCsw",
+    "ChIJMXuG6lPlZzQRVguoltD_-3o"
+  ],
+  "counter_namespace": "food-map-niu-v2",
+  "author_notice": "© 2026 Boson Huang · 核心演算法受著作權保護 · 禁止未授權複製或修改",
+  "repo_url": "https://github.com/boson316/food_map_niu_v2"
+}

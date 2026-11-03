@@ -28,6 +28,17 @@
 - Offline cache: **306** places (`data/places_cache.public.json` for Streamlit Cloud).
 - Spec: [docs/v2-規格.md](docs/v2-規格.md) · Summary: [docs/v2-上線與變更總結.md](docs/v2-上線與變更總結.md) · **Changelog**: [docs/CHANGELOG.md](docs/CHANGELOG.md)
 
+### Static site (GitHub Pages, no cold start)
+
+Streamlit Community Cloud's free tier sleeps idle apps. `web/` is a **static** Leaflet port with the same features —
+filters, distance, composite score, open-now and the wheel all run in the browser, so it never sleeps.
+
+- URL (once enabled): https://boson316.github.io/food_map_niu_v2/
+- Data: `python scripts/export_static.py` writes `web/data/places.json` (places + precomputed Huang/Bayesian ratings) and `web/data/config.json` (school, center, food groups, wheel settings).
+- Deploy: `.github/workflows/pages.yml` re-exports and deploys on push to `main`. **One-time: Settings → Pages → Source → "GitHub Actions".**
+- Local preview: `python scripts/export_static.py && python -m http.server -d web 8000`
+- Other campuses reuse the same frontend: only `config.json` (`--title`, `--campus-name`, `--lat`, `--lon`, `--counter-namespace`) and `places.json` change.
+
 ### Core features (from v1)
 
 - Default campus center: **NIU main campus** (Shennong Rd.), ~`24.7464°N, 121.7457°E`.

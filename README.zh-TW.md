@@ -27,6 +27,18 @@
 - 離線快取：**306** 家（雲端 `data/places_cache.public.json`）。
 - 完整規格：[docs/v2-規格.md](docs/v2-規格.md) · 上線總結：[docs/v2-上線與變更總結.md](docs/v2-上線與變更總結.md) · **更新日誌**：[docs/CHANGELOG.md](docs/CHANGELOG.md)
 
+### 靜態網站版（GitHub Pages，免冷啟動）
+
+Streamlit Community Cloud 免費方案閒置後會休眠，打開要等冷啟動。`web/` 是同功能的**純靜態** Leaflet 版本：
+篩選、距離、綜合分數、營業狀態、轉盤全部在瀏覽器計算，沒有伺服器 → **打開即用、永不休眠**。
+
+- 網址（啟用後）：https://boson316.github.io/food_map_niu_v2/
+- 資料：`python scripts/export_static.py` 產生 `web/data/places.json`（店家＋預先算好的黃氏／貝氏星等）與 `web/data/config.json`（學校名稱、中心點、分類、轉盤設定）。
+- 部署：push 到 `main` 後 `.github/workflows/pages.yml` 會自動重新匯出並部署。**首次需在 repo Settings → Pages → Source 選「GitHub Actions」**。
+- 本機預覽：`python scripts/export_static.py && python -m http.server -d web 8000` → http://localhost:8000
+- 其他學校共用同一套前端：只要換 `config.json`（`--title`、`--campus-name`、`--lat`、`--lon`、`--counter-namespace`）與 `places.json`，`web/index.html`、`app.js`、`style.css` 不用改。
+- 新增：店名／分類搜尋、「只看現在營業中」、拖曳藍點或「用我的位置」改中心、表頭點擊排序、篩選條件記在瀏覽器。
+
 ### 功能摘要（沿用 v1）
 
 - 預設校園中心：**國立宜蘭大學校本部**（神農路一段1號），約 `24.7464°N, 121.7457°E`。
