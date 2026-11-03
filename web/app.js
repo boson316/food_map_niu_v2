@@ -150,10 +150,11 @@
 
   function initMap() {
     map = L.map("map", { preferCanvas: true, zoomControl: true }).setView(CFG.center, 15);
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
-      maxZoom: 20,
-      subdomains: "abcd",
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    const tiles = CFG.tiles || {};
+    L.tileLayer(tiles.url || "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
+      maxZoom: tiles.max_zoom || 20,
+      subdomains: tiles.subdomains || "abcd",
+      attribution: tiles.attribution || '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
     }).addTo(map);
     layerGroup = L.layerGroup().addTo(map);
     radiusCircle = L.circle(CFG.center, { radius: 500, color: "#1a73e8", weight: 1, fillOpacity: 0.04, interactive: false }).addTo(map);
@@ -190,7 +191,8 @@
     if (sm) sm.bringToFront();
     centerMarker.setLatLng([st.lat, st.lon]);
     radiusCircle.setLatLng([st.lat, st.lon]).setRadius(st.radius * 1000);
-    if (fit) map.fitBounds(radiusCircle.getBounds(), { padding: [10, 10], maxZoom: 16 });
+    // Circle#getBounds is stale until redraw; compute from center + radius instead.
+    if (fit) map.fitBounds(L.latLng(st.lat, st.lon).toBounds(st.radius * 2000), { padding: [10, 10], maxZoom: 16 });
   }
 
   // ---------- list ----------
@@ -586,7 +588,8 @@
     const saved = loadState();
     $("#f-lat").value = CFG.center[0].toFixed(6);
     $("#f-lon").value = CFG.center[1].toFixed(6);
-    $("#f-radius").value = saved?.radius ?? CFG.default_radius_km;
+    if (CFG.max_radius_km) $("#f-radius").max = CFG.max_radius_km;
+    $("#f-radius").value = Math.min(saved?.radius ?? CFG.default_radius_km, Number($("#f-radius").max));
     if (saved) {
       $("#f-min-reviews").value = saved.minReviews ?? 0;
       (saved.groups || []).forEach((g) => selectedGroups.add(g));

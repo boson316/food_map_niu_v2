@@ -40,7 +40,8 @@ def test_export_writes_places_and_config(export_mod, tmp_path: Path) -> None:
         assert rec["groups"] == list(r.food_groups)
         assert rec["huang"] == pytest.approx(huang_weighted_rating(r.rating, r.review_count), abs=1e-4)
 
-    assert config["center"] == [24.7464, 121.7457]
+    assert config["center"] == [export_mod.SCHOOL["lat"], export_mod.SCHOOL["lon"]]
+    assert config["tiles"]["url"].startswith("https://")
     assert config["decay_km"] == 0.6
     assert config["food_group_sidebar"]
     assert set(config["wheel_pinned_ids"]) <= set(by_id)
@@ -57,7 +58,7 @@ def test_export_matches_service_ranking(export_mod, tmp_path: Path) -> None:
     places_path, _, _ = export_mod.export(args)
     places = json.loads(places_path.read_text(encoding="utf-8"))
 
-    lat, lon, radius = 24.7464, 121.7457, 0.5
+    lat, lon, radius = export_mod.SCHOOL["lat"], export_mod.SCHOOL["lon"], export_mod.SCHOOL["radius"]
     ranked = []
     for p in places:
         d = haversine_km(lat, lon, p["lat"], p["lon"])
@@ -68,4 +69,4 @@ def test_export_matches_service_ranking(export_mod, tmp_path: Path) -> None:
     service = FoodMapService(MockRestaurantProvider(json_path=data))
     expected = service.rank_nearby(center_lat=lat, center_lon=lon, radius_km=radius)
     assert [pid for _, pid in ranked[:20]] == [row.restaurant.id for row in expected[:20]]
-    assert len(ranked) == len(expected)
+    assert min(len(ranked), 300) == len(expected)  # rank_nearby default limit=300
